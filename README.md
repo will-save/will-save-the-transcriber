@@ -56,6 +56,15 @@ uv run transcribe_advanced.py audio/Episode\ 1\ Arrays\ Start\ at\ Zero.mp3 -o t
 # Use a specific model size
 uv run transcribe_advanced.py audio/Episode\ 1\ Arrays\ Start\ at\ Zero.mp3 --model large-v3
 
+# Specify exact number of speakers (if known)
+uv run transcribe_advanced.py audio/Episode\ 1\ Arrays\ Start\ at\ Zero.mp3 --num-speakers 3
+
+# Set speaker count range
+uv run transcribe_advanced.py audio/Episode\ 1\ Arrays\ Start\ at\ Zero.mp3 --min-speakers 2 --max-speakers 5
+
+# Skip audio analysis for diarization
+uv run transcribe_advanced.py audio/Episode\ 1\ Arrays\ Start\ at\ Zero.mp3 --no-audio-analysis
+
 # Specify language (optional, auto-detected if not provided)
 uv run transcribe_advanced.py audio/Episode\ 1\ Arrays\ Start\ at\ Zero.mp3 -l en
 
@@ -75,8 +84,14 @@ uv run transcribe_advanced.py audio/Episode\ 1\ Arrays\ Start\ at\ Zero.mp3 --de
 #### Advanced Script (`transcribe_advanced.py`)
 - All options from basic script, plus:
 - `--diarization-model`: Pyannote diarization model to use
+- `--num-speakers`: Exact number of speakers (if known)
+- `--min-speakers`: Minimum number of speakers to detect (default: 4)
+- `--max-speakers`: Maximum number of speakers to detect (default: 20)
+- `--no-audio-analysis`: Skip audio analysis for diarization parameters
 - Enhanced error handling and multiple model fallbacks
 - Word-level timestamps and confidence scores
+- Audio analysis for optimal diarization parameters
+- Post-processing for better speaker assignment
 
 ### Model Options
 

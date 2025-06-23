@@ -89,7 +89,8 @@ def load_hf_token():
 
 
 def transcribe_audio_advanced(audio_path, output_path=None, language=None, device="cuda", 
-                             model_size="large-v3", diarization_model="pyannote/speaker-diarization-3.1"):
+                             model_size="large-v3", diarization_model="pyannote/speaker-diarization-3.1",
+                             num_speakers=None, min_speakers=4, max_speakers=20):
     """
     Advanced transcription with multiple model options and better diarization.
     
@@ -100,6 +101,9 @@ def transcribe_audio_advanced(audio_path, output_path=None, language=None, devic
         device (str): Device to use ('cuda' or 'cpu')
         model_size (str): WhisperX model size
         diarization_model (str): Pyannote diarization model to use
+        num_speakers (int): Exact number of speakers (if known)
+        min_speakers (int): Minimum number of speakers to detect
+        max_speakers (int): Maximum number of speakers to detect
     
     Returns:
         str: Path to the output markdown file
@@ -145,6 +149,16 @@ def transcribe_audio_advanced(audio_path, output_path=None, language=None, devic
     print("Performing advanced speaker diarization...")
     hf_token = load_hf_token()
     
+    # Analyze audio for optimal diarization parameters
+    audio_analysis = analyze_audio_for_diarization(converted_audio_path)
+    
+    # Use provided parameters or fall back to analysis suggestions
+    final_min_speakers = min_speakers if min_speakers != 1 else audio_analysis['min_speakers']
+    final_max_speakers = max_speakers if max_speakers != 10 else audio_analysis['max_speakers']
+    final_num_speakers = num_speakers if num_speakers is not None else audio_analysis['num_speakers']
+    
+    print(f"Using diarization parameters: min={final_min_speakers}, max={final_max_speakers}, exact={final_num_speakers}")
+    
     if hf_token:
         # Validate the token first
         print("Validating Hugging Face token...")
@@ -185,9 +199,9 @@ def transcribe_audio_advanced(audio_path, output_path=None, language=None, devic
                     with ProgressHook() as hook:
                         diarize_segments = diarize_model(
                             converted_audio_path,
-                            min_speakers=1,
-                            max_speakers=10,
-                            num_speakers=None,  # Auto-detect
+                            min_speakers=final_min_speakers,
+                            max_speakers=final_max_speakers,
+                            num_speakers=final_num_speakers,
                             hook=hook
                         )
                     
@@ -215,6 +229,9 @@ def transcribe_audio_advanced(audio_path, output_path=None, language=None, devic
                     print("Assigning speaker labels with high precision...")
                     result = whisperx.assign_word_speakers(diarize_segments, result)
                     print("✅ Speaker diarization completed successfully!")
+                    
+                    # Post-process diarization results for better accuracy
+                    result = post_process_diarization(result, min_segment_duration=2.0)
                     
                 except Exception as e:
                     print(f"⚠️  Warning: Speaker assignment failed: {str(e)}")
@@ -345,6 +362,81 @@ def format_time(seconds):
     return f"{hours:02d}:{minutes:02d}:{secs:02d}"
 
 
+def analyze_audio_for_diarization(audio_path):
+    """
+    Analyze audio file to suggest optimal diarization parameters.
+    
+    Args:
+        audio_path (str): Path to the audio file
+    
+    Returns:
+        dict: Suggested parameters for diarization
+    """
+    try:
+        import librosa
+        
+        print("Analyzing audio for optimal diarization parameters...")
+        
+        # Load audio for analysis
+        y, sr = librosa.load(audio_path, sr=None)
+        duration = len(y) / sr
+        
+        # Calculate audio characteristics
+        rms = librosa.feature.rms(y=y)[0]
+        avg_volume = float(rms.mean())
+        volume_variance = float(rms.var())
+        
+        # Detect silence regions
+        silence_threshold = avg_volume * 0.1
+        silence_regions = librosa.effects.split(y, top_db=20)
+        silence_duration = sum([(end - start) / sr for start, end in silence_regions])
+        speech_ratio = (duration - silence_duration) / duration
+        
+        print(f"Audio duration: {duration:.1f} seconds")
+        print(f"Average volume: {avg_volume:.3f}")
+        print(f"Volume variance: {volume_variance:.3f}")
+        print(f"Speech ratio: {speech_ratio:.2f}")
+        
+        # Suggest parameters based on analysis
+        suggestions = {
+            'min_speakers': 4,
+            'max_speakers': 20,
+            'num_speakers': None
+        }
+        
+        # Adjust based on duration
+        if duration < 60:  # Short audio
+            suggestions['max_speakers'] = 3
+            print("Short audio detected - limiting to 3 speakers max")
+        elif duration < 300:  # Medium audio
+            suggestions['max_speakers'] = 5
+            print("Medium audio detected - limiting to 5 speakers max")
+        
+        # Adjust based on speech ratio
+        if speech_ratio < 0.3:
+            print("Low speech ratio - may have background noise")
+            suggestions['min_speakers'] = 1
+        elif speech_ratio > 0.8:
+            print("High speech ratio - dense conversation")
+            suggestions['max_speakers'] = min(suggestions['max_speakers'], 8)
+        
+        # Adjust based on volume variance (indicates multiple speakers)
+        if volume_variance > avg_volume * 0.5:
+            print("High volume variance - likely multiple speakers")
+            suggestions['min_speakers'] = 2
+        else:
+            print("Low volume variance - may be single speaker or similar voices")
+        
+        return suggestions
+        
+    except ImportError:
+        print("⚠️  librosa not available for audio analysis")
+        return {'min_speakers': 4, 'max_speakers': 20, 'num_speakers': None}
+    except Exception as e:
+        print(f"⚠️  Audio analysis failed: {e}")
+        return {'min_speakers': 4, 'max_speakers': 20, 'num_speakers': None}
+
+
 def convert_audio_to_wav(input_path, output_path=None):
     """
     Convert audio file to WAV format with optimal parameters for WhisperX.
@@ -391,6 +483,82 @@ def convert_audio_to_wav(input_path, output_path=None):
         return str(input_path)
 
 
+def post_process_diarization(result, min_segment_duration=1.0):
+    """
+    Post-process diarization results to improve speaker assignment.
+    
+    Args:
+        result (dict): WhisperX transcription result with speaker labels
+        min_segment_duration (float): Minimum duration for a speaker segment
+    
+    Returns:
+        dict: Improved transcription result
+    """
+    print("Post-processing diarization results...")
+    
+    # Group segments by speaker
+    speaker_segments = {}
+    for segment in result["segments"]:
+        speaker = segment.get("speaker", "Unknown")
+        if speaker not in speaker_segments:
+            speaker_segments[speaker] = []
+        speaker_segments[speaker].append(segment)
+    
+    # Calculate total speaking time per speaker
+    speaker_durations = {}
+    for speaker, segments in speaker_segments.items():
+        total_duration = sum(seg["end"] - seg["start"] for seg in segments)
+        speaker_durations[speaker] = total_duration
+    
+    print(f"Detected speakers: {list(speaker_durations.keys())}")
+    for speaker, duration in speaker_durations.items():
+        print(f"  {speaker}: {duration:.1f}s")
+    
+    # Remove speakers with very short total duration
+    filtered_speakers = {}
+    for speaker, duration in speaker_durations.items():
+        if duration >= min_segment_duration:
+            filtered_speakers[speaker] = duration
+        else:
+            print(f"Removing {speaker} (too short: {duration:.1f}s)")
+    
+    # Reassign speaker labels if needed
+    if len(filtered_speakers) != len(speaker_durations):
+        # Create new speaker mapping
+        new_speakers = list(filtered_speakers.keys())
+        old_to_new = {}
+        
+        for old_speaker in speaker_durations.keys():
+            if old_speaker in filtered_speakers:
+                old_to_new[old_speaker] = old_speaker
+            else:
+                # Assign to the most similar speaker (by duration)
+                best_match = min(new_speakers, key=lambda x: abs(speaker_durations[x] - speaker_durations[old_speaker]))
+                old_to_new[old_speaker] = best_match
+                print(f"Reassigning {old_speaker} -> {best_match}")
+        
+        # Update segments
+        for segment in result["segments"]:
+            old_speaker = segment.get("speaker", "Unknown")
+            segment["speaker"] = old_to_new.get(old_speaker, old_speaker)
+    
+    # Rename speakers to be more user-friendly
+    final_speakers = sorted(filtered_speakers.keys())
+    speaker_rename = {}
+    for i, speaker in enumerate(final_speakers):
+        new_name = f"Speaker {i+1}"
+        speaker_rename[speaker] = new_name
+        print(f"Renaming {speaker} -> {new_name}")
+    
+    # Apply renaming
+    for segment in result["segments"]:
+        old_speaker = segment.get("speaker", "Unknown")
+        segment["speaker"] = speaker_rename.get(old_speaker, old_speaker)
+    
+    print(f"Final speaker count: {len(final_speakers)}")
+    return result
+
+
 def main():
     parser = argparse.ArgumentParser(description="Advanced transcription using WhisperX with improved speaker diarization")
     parser.add_argument("audio_file", nargs='?', help="Path to the audio file (MP3, WAV, etc.)")
@@ -403,6 +571,14 @@ def main():
     parser.add_argument("--diarization-model", 
                        default="pyannote/speaker-diarization-3.1",
                        help="Pyannote diarization model to use")
+    parser.add_argument("--num-speakers", type=int, 
+                       help="Exact number of speakers (if known)")
+    parser.add_argument("--min-speakers", type=int, default=1,
+                       help="Minimum number of speakers to detect (default: 4)")
+    parser.add_argument("--max-speakers", type=int, default=10,
+                       help="Maximum number of speakers to detect (default: 20)")
+    parser.add_argument("--no-audio-analysis", action="store_true",
+                       help="Skip audio analysis for diarization parameters")
     parser.add_argument("--test-env", action="store_true", 
                        help="Test .env file loading and token validation")
     
@@ -435,7 +611,10 @@ def main():
             language=args.language,
             device=args.device,
             model_size=args.model,
-            diarization_model=args.diarization_model
+            diarization_model=args.diarization_model,
+            num_speakers=args.num_speakers,
+            min_speakers=args.min_speakers,
+            max_speakers=args.max_speakers
         )
         print(f"✅ Advanced transcription completed successfully!")
         print(f"📄 Output saved to: {output_file}")
