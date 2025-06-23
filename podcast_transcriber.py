@@ -27,6 +27,7 @@ class PodcastTranscriber:
         self.rss_url = rss_url
         self.episodes_dir = Path("episodes")
         self.audio_dir = Path("audio")
+        self.is_will_save_podcast = "willsavethepodcast" in rss_url.lower()
         self.series_title_map = {
             "willSaveTheTrailer": {"title": "Will Save the Trailer", "series": "Will Save the Podcast"},
             "book1": {"title": "Threefold Conspiracy Book 1", "series": "Will Save the Podcast"},
@@ -129,7 +130,15 @@ class PodcastTranscriber:
         return episodes
     
     def organize_episodes_by_series(self, episodes: List[Dict]) -> Dict[str, List[Dict]]:
-        """Organize episodes by series (matching JavaScript logic)."""
+        """Organize episodes by series (matching JavaScript logic for Will Save the Podcast)."""
+        # For non-Will Save the Podcast feeds, put all episodes in a single series
+        if not self.is_will_save_podcast:
+            series = {"general": episodes}
+            for i, episode in enumerate(episodes):
+                episode['playlist_pos'] = i
+            return series
+        
+        # Original logic for Will Save the Podcast
         series = {}
         book_counter = 1
         
@@ -181,6 +190,16 @@ class PodcastTranscriber:
     
     def get_series_directory(self, series_key: str) -> Path:
         """Get the directory path for a series."""
+        # For non-Will Save the Podcast feeds, use a generic directory
+        if not self.is_will_save_podcast:
+            if series_key == "general":
+                return self.episodes_dir
+            else:
+                # Fallback for any other series keys
+                sanitized_key = self.sanitize_filename(series_key)
+                return self.episodes_dir / sanitized_key
+        
+        # Original logic for Will Save the Podcast
         if series_key in self.series_title_map:
             series_title = self.series_title_map[series_key]["title"]
             sanitized_title = self.sanitize_filename(series_title)
@@ -280,7 +299,11 @@ class PodcastTranscriber:
     
     def run(self, cleanup_audio: bool = True):
         """Main execution method."""
-        print("🎙️  Starting Podcast Transcription Process")
+        if self.is_will_save_podcast:
+            print("🎙️  Starting Will Save the Podcast Transcription Process")
+        else:
+            print("🎙️  Starting Podcast Transcription Process")
+            print("⚠️  Note: This RSS feed is not Will Save the Podcast. Series organization may not work as expected.")
         print("=" * 50)
         
         # Fetch and parse RSS feed
@@ -294,10 +317,13 @@ class PodcastTranscriber:
         # Organize episodes by series
         series = self.organize_episodes_by_series(episodes)
         
-        print(f"\n📚 Found {len(series)} series:")
-        for series_key, series_episodes in series.items():
-            series_title = self.series_title_map.get(series_key, {}).get('title', series_key)
-            print(f"  - {series_title}: {len(series_episodes)} episodes")
+        if self.is_will_save_podcast:
+            print(f"\n📚 Found {len(series)} series:")
+            for series_key, series_episodes in series.items():
+                series_title = self.series_title_map.get(series_key, {}).get('title', series_key)
+                print(f"  - {series_title}: {len(series_episodes)} episodes")
+        else:
+            print(f"\n📚 Found {len(episodes)} episodes (no series organization)")
         
         # Process each series
         total_episodes = 0
@@ -305,9 +331,12 @@ class PodcastTranscriber:
         
         for series_key, series_episodes in series.items():
             series_dir = self.get_series_directory(series_key)
-            series_title = self.series_title_map.get(series_key, {}).get('title', series_key)
             
-            print(f"\n📖 Processing series: {series_title}")
+            if self.is_will_save_podcast:
+                series_title = self.series_title_map.get(series_key, {}).get('title', series_key)
+                print(f"\n📖 Processing series: {series_title}")
+            else:
+                print(f"\n📖 Processing episodes")
             print("-" * 40)
             
             for episode in series_episodes:
