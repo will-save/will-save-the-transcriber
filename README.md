@@ -287,6 +287,10 @@ python podcast_transcriber.py --rss-url "https://feed.podbean.com/your-podcast/f
 python podcast_transcriber.py --rss-url "your-feed.xml" --min-speakers 2 --max-speakers 6
 ```
 
+> **⚠️ Disclaimer**: The `--rss-url` feature for other podcasts has not been thoroughly vetted. Different podcast feeds may have varying RSS structures, audio formats, or metadata that could affect transcription quality. Use at your own discretion and test with a small sample first.
+> 
+> **Note**: For non-Will Save the Podcast feeds, episodes are saved directly to the `episodes/` directory without series organization, as the series detection logic is specific to Will Save the Podcast's naming conventions.
+
 ## License
 
 This project is open source and available under the MIT License. 
