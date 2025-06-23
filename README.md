@@ -30,6 +30,7 @@ This project uses [UV](https://github.com/astral-sh/uv) for dependency managemen
 3. Set up Hugging Face token for speaker diarization:
    - Get a token from [Hugging Face](https://huggingface.co/settings/tokens)
    - Accept the terms for the [pyannote/speaker-diarization-3.1](https://huggingface.co/pyannote/speaker-diarization-3.1) model
+   - Accept the terms for [pyannote/segmentation-3.0](https://hf.co/pyannote/segmentation-3.0)
    - Create a `.env` file in the project root:
      ```
      HF_TOKEN=your_huggingface_token_here
@@ -187,9 +188,10 @@ If you encounter issues:
 1. **CUDA errors**: Try using `--device cpu`
 2. **Memory issues**: Try a smaller model (e.g., `--model medium`)
 3. **Audio format issues**: Ensure your audio file is in a supported format
-4. **Speaker diarization errors**: Make sure you have a valid HF_TOKEN and have accepted the terms for the pyannote/speaker-diarization-3.1 model
-5. **Poor transcription quality**: Try the advanced script with `large-v3` model
-6. **Diarization not working**: The advanced script will try multiple models automatically
+4. **Speaker diarization errors**: Make sure you have a valid HF_TOKEN and have accepted the terms for the pyannote/speaker-diarization-3.1 model 
+5. **Segmentation diarization errors**: A dependency for diarization of episodes 
+6. **Poor transcription quality**: Try the advanced script with `large-v3` model
+7. **Diarization not working**: The advanced script will try multiple models automatically
 
 ## Performance Tips
 
