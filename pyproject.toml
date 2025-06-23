@@ -5,12 +5,15 @@ description = "A transcription tool using WhisperX with speaker diarization"
 requires-python = ">=3.8"
 dependencies = [
     "whisperx",
-    "torch",
-    "torchaudio",
+    "torch>=2.0.0,<3.0.0",
+    "torchaudio>=2.0.0,<3.0.0",
     "transformers",
     "librosa",
     "soundfile",
     "python-dotenv",
+    "pyannote-audio>=3.0.0,<4.0.0",
+    "pytorch-lightning>=2.0.0,<3.0.0",
+    "requests",
 ]
 
 [tool.uv]
