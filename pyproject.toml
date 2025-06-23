@@ -1,0 +1,17 @@
+[project]
+name = "will-save-the-transcriber"
+version = "0.1.0"
+description = "A transcription tool using WhisperX with speaker diarization"
+requires-python = ">=3.8"
+dependencies = [
+    "whisperx",
+    "torch",
+    "torchaudio",
+    "transformers",
+    "librosa",
+    "soundfile",
+    "python-dotenv",
+]
+
+[tool.uv]
+dev-dependencies = [] 
