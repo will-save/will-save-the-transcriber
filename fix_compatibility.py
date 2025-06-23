@@ -30,14 +30,21 @@ def run_command(cmd, description, check=True):
 def get_package_version(package_name):
     """Get the current version of a package."""
     try:
-        result = subprocess.run([sys.executable, "-m", "pip", "show", package_name], 
+        # Use uv run to get package info from the project environment
+        result = subprocess.run(["uv", "run", "python", "-c", f"import {package_name}; print({package_name}.__version__)"], 
                               capture_output=True, text=True, check=True)
-        lines = result.stdout.split('\n')
-        version_line = [line for line in lines if line.startswith('Version:')]
-        if version_line:
-            return version_line[0].split(':')[1].strip()
+        return result.stdout.strip()
     except:
-        pass
+        try:
+            # Fallback to direct pip show
+            result = subprocess.run([sys.executable, "-m", "pip", "show", package_name], 
+                                  capture_output=True, text=True, check=True)
+            lines = result.stdout.split('\n')
+            version_line = [line for line in lines if line.startswith('Version:')]
+            if version_line:
+                return version_line[0].split(':')[1].strip()
+        except:
+            pass
     return None
 
 def check_current_versions():
@@ -81,12 +88,12 @@ def fix_compatibility():
     current_versions = check_current_versions()
     print()
     
-    # Define target versions for optimal compatibility
+    # Define target versions for optimal compatibility with current environment
     target_versions = {
-        'torch': '1.13.1',
-        'torchaudio': '1.13.1', 
-        'pyannote-audio': '2.1.1',
-        'pytorch-lightning': '1.9.5'
+        'torch': '2.7.1',
+        'torchaudio': '2.7.1', 
+        'pyannote-audio': '3.3.2',
+        'pytorch-lightning': '2.5.2'
     }
     
     print("🎯 Target versions for optimal diarization quality:")
@@ -95,8 +102,20 @@ def fix_compatibility():
         print(f"   {package}: {current} → {version}")
     print()
     
+    # Check if we need to update
+    needs_update = False
+    for package, target_version in target_versions.items():
+        current_version = current_versions.get(package)
+        if current_version != target_version:
+            needs_update = True
+            break
+    
+    if not needs_update:
+        print("✅ All packages are already at optimal versions!")
+        return True
+    
     # Confirm before proceeding
-    print("⚠️  This will downgrade several packages to ensure compatibility.")
+    print("⚠️  This will update packages to ensure compatibility.")
     print("   This process may take several minutes.")
     confirm = input("Proceed with compatibility fixes? (y/N): ").strip().lower()
     
@@ -107,49 +126,54 @@ def fix_compatibility():
     print("\n🚀 Starting compatibility fixes...")
     print()
     
-    # Step 1: Uninstall current incompatible versions
-    print("Step 1: Removing incompatible versions...")
-    uninstall_commands = [
-        ("uv pip uninstall -y torch torchaudio", "Uninstalling PyTorch packages"),
-        ("uv pip uninstall -y pyannote-audio", "Uninstalling Pyannote Audio"),
-        ("uv pip uninstall -y pytorch-lightning", "Uninstalling PyTorch Lightning"),
-    ]
-    
-    for cmd, desc in uninstall_commands:
-        run_command(cmd, desc, check=False)  # Don't fail if not installed
-    
-    print()
-    
-    # Step 2: Install compatible versions
-    print("Step 2: Installing compatible versions...")
-    install_commands = [
-        ("uv pip install 'torch==1.13.1' 'torchaudio==1.13.1'", 
-         "Installing compatible PyTorch versions"),
-        ("uv pip install 'pyannote-audio==2.1.1'", 
-         "Installing compatible Pyannote Audio version"),
-        ("uv pip install 'pytorch-lightning==1.9.5'", 
-         "Installing compatible PyTorch Lightning version"),
-    ]
-    
-    success = True
-    for cmd, desc in install_commands:
-        if not run_command(cmd, desc):
-            success = False
-            break
+    # Use uv sync to resolve dependencies properly
+    print("Step 1: Syncing dependencies with uv...")
+    if not run_command("uv sync", "Syncing project dependencies"):
+        print("❌ Failed to sync dependencies. Trying manual installation...")
+        
+        # Fallback to manual installation
+        install_commands = [
+            ("uv pip install 'torch>=2.0.0,<3.0.0' 'torchaudio>=2.0.0,<3.0.0'", 
+             "Installing compatible PyTorch versions"),
+            ("uv pip install 'pyannote-audio>=3.0.0,<4.0.0'", 
+             "Installing compatible Pyannote Audio version"),
+            ("uv pip install 'pytorch-lightning>=2.0.0,<3.0.0'", 
+             "Installing compatible PyTorch Lightning version"),
+        ]
+        
+        success = True
+        for cmd, desc in install_commands:
+            if not run_command(cmd, desc):
+                success = False
+                break
+    else:
+        success = True
     
     print()
     
-    # Step 3: Verify installation
-    print("Step 3: Verifying installation...")
+    # Step 2: Verify installation
+    print("Step 2: Verifying installation...")
     new_versions = check_current_versions()
     
-    # Check if versions match targets
+    # Check if versions are in acceptable ranges
+    acceptable_ranges = {
+        'torch': ('2.0.0', '3.0.0'),
+        'torchaudio': ('2.0.0', '3.0.0'),
+        'pyannote-audio': ('3.0.0', '4.0.0'),
+        'pytorch-lightning': ('2.0.0', '3.0.0')
+    }
+    
     all_good = True
-    for package, target_version in target_versions.items():
+    for package, (min_ver, max_ver) in acceptable_ranges.items():
         current_version = new_versions.get(package)
-        if current_version != target_version:
-            print(f"⚠️  {package}: Expected {target_version}, got {current_version}")
-            all_good = False
+        if current_version:
+            major, minor = map(int, current_version.split('.')[:2])
+            min_major, min_minor = map(int, min_ver.split('.'))
+            max_major, max_minor = map(int, max_ver.split('.'))
+            
+            if not (min_major <= major <= max_major):
+                print(f"⚠️  {package}: {current_version} is outside acceptable range {min_ver}-{max_ver}")
+                all_good = False
     
     if all_good:
         print("\n✅ All packages installed with compatible versions!")
