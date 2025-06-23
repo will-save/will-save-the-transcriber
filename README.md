@@ -201,6 +201,92 @@ If you encounter issues:
 - GPU processing is 5-10x faster than CPU
 - The advanced script provides better diarization but takes longer
 
+## Quick Start Examples
+
+### Single File Transcription
+
+**Basic transcription of any audio file:**
+```bash
+# Simple transcription
+python transcribe_simple.py your_audio_file.mp3
+
+# Advanced transcription (recommended)
+python transcribe_advanced.py your_audio_file.mp3
+
+# Specify language and output file
+python transcribe_advanced.py your_audio_file.mp3 -l en -o transcript.md
+```
+
+**Common use cases:**
+```bash
+# Podcast episode
+python transcribe_advanced.py podcast_episode.mp3
+
+# Interview with multiple speakers
+python transcribe_advanced.py interview.mp3 --num-speakers 3
+
+# Non-English content
+python transcribe_advanced.py spanish_audio.mp3 -l es
+
+# CPU-only processing
+python transcribe_advanced.py audio.mp3 --device cpu
+```
+
+### Will Save the Podcast Feed Parsing
+
+**Automatically transcribe all episodes from the Will Save the Podcast RSS feed:**
+
+```bash
+# Transcribe all episodes (default)
+python podcast_transcriber.py
+
+# Keep downloaded audio files for reuse
+python podcast_transcriber.py --keep-audio
+
+# Use a different RSS feed
+python podcast_transcriber.py --rss-url "https://your-podcast-feed.xml"
+```
+
+**What this does:**
+1. **Fetches RSS feed** from Will Save the Podcast
+2. **Downloads audio files** for each episode
+3. **Organizes by series** (Threefold Conspiracy Book 1, Unknown Treasures, etc.)
+4. **Transcribes each episode** using advanced diarization
+5. **Saves markdown files** in organized directory structure
+6. **Skips existing transcripts** (incremental processing)
+7. **Cleans up audio files** after transcription
+
+**Output structure:**
+```
+episodes/
+├── threefold_conspiracy_book_1/
+│   ├── episode_1_title.md
+│   └── episode_2_title.md
+├── threefold_conspiracy_book_2/
+│   ├── episode_3_title.md
+│   └── episode_4_title.md
+├── unknown_treasures/
+│   └── unknown_treasures_episode.md
+└── ...
+```
+
+**Features:**
+- **Automatic series detection** using the same logic as the website
+- **Sanitized filenames** for better compatibility
+- **Incremental processing** - only transcribes new episodes
+- **Advanced diarization** with version 2 (pyannote-audio docs approach)
+- **English language optimization** for podcast content
+- **GPU acceleration** when available
+
+**For other podcasts:**
+```bash
+# Transcribe any podcast RSS feed
+python podcast_transcriber.py --rss-url "https://feed.podbean.com/your-podcast/feed.xml"
+
+# Customize speaker detection
+python podcast_transcriber.py --rss-url "your-feed.xml" --min-speakers 2 --max-speakers 6
+```
+
 ## License
 
 This project is open source and available under the MIT License. 
