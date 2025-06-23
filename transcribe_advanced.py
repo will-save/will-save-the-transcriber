@@ -126,16 +126,27 @@ def transcribe_audio_advanced(audio_path, output_path=None, language=None, devic
     compute_type = "float16" if device == "cuda" else "float32"
     model = whisperx.load_model(model_size, device, compute_type=compute_type)
     
-    # Transcribe audio with supported parameters only
+    # Transcribe audio with language parameter if provided
     print("Transcribing audio with advanced settings...")
-    result = model.transcribe(
-        audio, 
-        batch_size=16
-    )
+    if language:
+        print(f"Using specified language: {language}")
+        result = model.transcribe(
+            audio, 
+            language=language,
+            batch_size=16
+        )
+    else:
+        print("No language specified, language will be first be detected for each audio file (increases inference time).")
+        result = model.transcribe(
+            audio, 
+            batch_size=16
+        )
     
     # Align whisper output with better parameters
     print("Aligning timestamps with high precision...")
-    model_a, metadata = whisperx.load_align_model(language_code=result["language"], device=device)
+    # Use specified language or detected language for alignment
+    align_language = language if language else result["language"]
+    model_a, metadata = whisperx.load_align_model(language_code=align_language, device=device)
     result = whisperx.align(
         result["segments"], 
         model_a, 
@@ -153,8 +164,9 @@ def transcribe_audio_advanced(audio_path, output_path=None, language=None, devic
     audio_analysis = analyze_audio_for_diarization(converted_audio_path)
     
     # Use provided parameters or fall back to analysis suggestions
-    final_min_speakers = min_speakers if min_speakers != 1 else audio_analysis['min_speakers']
-    final_max_speakers = max_speakers if max_speakers != 10 else audio_analysis['max_speakers']
+    # Fix the logic: use provided parameters if they're not the defaults
+    final_min_speakers = min_speakers if min_speakers != 4 else audio_analysis['min_speakers']
+    final_max_speakers = max_speakers if max_speakers != 20 else audio_analysis['max_speakers']
     final_num_speakers = num_speakers if num_speakers is not None else audio_analysis['num_speakers']
     
     print(f"Using diarization parameters: min={final_min_speakers}, max={final_max_speakers}, exact={final_num_speakers}")
@@ -171,10 +183,11 @@ def transcribe_audio_advanced(audio_path, output_path=None, language=None, devic
             diarize_segments = None
             
             # Try multiple diarization models in order of preference
+            # Prioritize more compatible models when version issues are detected
             diarization_models = [
-                "pyannote/speaker-diarization-3.1",
-                "pyannote/speaker-diarization-2.1",
-                "pyannote/speaker-diarization"
+                "pyannote/speaker-diarization-2.1",  # More compatible with newer versions
+                "pyannote/speaker-diarization-3.1",  # Latest but may have compatibility issues
+                "pyannote/speaker-diarization"       # Original version
             ]
             
             for model_name in diarization_models:
@@ -559,6 +572,83 @@ def post_process_diarization(result, min_segment_duration=1.0):
     return result
 
 
+def check_version_compatibility():
+    """
+    Check version compatibility and provide specific recommendations for fixing issues.
+    """
+    print("🔍 Checking version compatibility for optimal diarization quality...")
+    
+    try:
+        import torch
+        import pyannote.audio
+        import pytorch_lightning
+        
+        torch_version = torch.__version__
+        pyannote_version = pyannote.audio.__version__
+        lightning_version = pytorch_lightning.__version__
+        
+        print(f"   PyTorch: {torch_version}")
+        print(f"   Pyannote Audio: {pyannote_version}")
+        print(f"   PyTorch Lightning: {lightning_version}")
+        
+        # Define compatible version ranges
+        compatible_versions = {
+            'torch': ('1.10.0', '1.13.0'),  # Models trained with 1.10.0
+            'pyannote_audio': ('2.1.0', '2.1.1'),  # More stable for diarization models
+            'pytorch_lightning': ('1.9.0', '1.10.0')  # Compatible with older models
+        }
+        
+        issues = []
+        recommendations = []
+        
+        # Check PyTorch compatibility
+        torch_major, torch_minor = map(int, torch_version.split('.')[:2])
+        if torch_major > 1:
+            issues.append(f"PyTorch {torch_version} is newer than recommended range {compatible_versions['torch'][0]}-{compatible_versions['torch'][1]}")
+            recommendations.append("Consider downgrading: uv pip install 'torch>=1.10.0,<1.14.0' 'torchaudio>=1.10.0,<1.14.0'")
+        
+        # Check Pyannote Audio compatibility
+        pyannote_major = int(pyannote_version.split('.')[0])
+        if pyannote_major >= 3:
+            issues.append(f"Pyannote Audio {pyannote_version} is much newer than recommended range {compatible_versions['pyannote_audio'][0]}-{compatible_versions['pyannote_audio'][1]}")
+            recommendations.append("Consider downgrading: uv pip install 'pyannote-audio>=2.1.0,<2.2.0'")
+        
+        # Check PyTorch Lightning compatibility
+        lightning_major = int(lightning_version.split('.')[0])
+        if lightning_major >= 2:
+            issues.append(f"PyTorch Lightning {lightning_version} is newer than recommended range {compatible_versions['pytorch_lightning'][0]}-{compatible_versions['pytorch_lightning'][1]}")
+            recommendations.append("Consider downgrading: uv pip install 'pytorch-lightning>=1.9.0,<1.11.0'")
+        
+        if issues:
+            print("\n⚠️  Compatibility issues detected that may affect diarization quality:")
+            for issue in issues:
+                print(f"   • {issue}")
+            
+            print("\n🔧 Recommended fixes for optimal diarization quality:")
+            for i, rec in enumerate(recommendations, 1):
+                print(f"   {i}. {rec}")
+            
+            print("\n💡 Alternative: Use compatible model versions")
+            print("   • Try: pyannote/speaker-diarization-2.1 (more compatible with current versions)")
+            print("   • Or: pyannote/speaker-diarization (original version)")
+            
+            print("\n❓ Continue anyway? (y/N): ", end="")
+            response = input().strip().lower()
+            if response != 'y':
+                print("Exiting. Please fix compatibility issues first.")
+                sys.exit(1)
+            else:
+                print("⚠️  Continuing with potential quality issues...")
+        else:
+            print("\n✅ All versions are compatible for optimal diarization quality!")
+        
+        print()
+        
+    except ImportError as e:
+        print(f"⚠️  Could not check all versions: {e}")
+        print()
+
+
 def main():
     parser = argparse.ArgumentParser(description="Advanced transcription using WhisperX with improved speaker diarization")
     parser.add_argument("audio_file", nargs='?', help="Path to the audio file (MP3, WAV, etc.)")
@@ -574,8 +664,8 @@ def main():
     parser.add_argument("--num-speakers", type=int, 
                        help="Exact number of speakers (if known)")
     parser.add_argument("--min-speakers", type=int, default=1,
-                       help="Minimum number of speakers to detect (default: 4)")
-    parser.add_argument("--max-speakers", type=int, default=10,
+                       help="Minimum number of speakers to detect (default: 1)")
+    parser.add_argument("--max-speakers", type=int, default=20,
                        help="Maximum number of speakers to detect (default: 20)")
     parser.add_argument("--no-audio-analysis", action="store_true",
                        help="Skip audio analysis for diarization parameters")
@@ -605,6 +695,19 @@ def main():
         sys.exit(1)
     
     try:
+        # Check version compatibility first
+        check_version_compatibility()
+        
+        # Print the parameters being used for transparency
+        print(f"🔧 Using parameters:")
+        print(f"   Model: {args.model}")
+        print(f"   Language: {args.language or 'auto-detect'}")
+        print(f"   Device: {args.device}")
+        print(f"   Min speakers: {args.min_speakers}")
+        print(f"   Max speakers: {args.max_speakers}")
+        print(f"   Exact speakers: {args.num_speakers or 'auto-detect'}")
+        print()
+        
         output_file = transcribe_audio_advanced(
             audio_path=args.audio_file,
             output_path=args.output,
