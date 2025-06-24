@@ -235,7 +235,8 @@ class PodcastTranscriber:
                 model_size='large-v3',
                 min_speakers=1,
                 max_speakers=10,
-                num_speakers=None
+                num_speakers=None,
+                title=episode['title']
             )
             
             print(f"✅ Transcribed: {output_path.name}")

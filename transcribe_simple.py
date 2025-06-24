@@ -173,7 +173,7 @@ def transcribe_audio_simple_v1(audio_path, output_path=None, language=None, devi
     
     # Write markdown output
     print(f"Writing transcript to: {output_path}")
-    write_markdown_transcript(result, output_path)
+    write_markdown_transcript(result, output_path, title=Path(audio_path).stem)
     
     # Clean up
     del model
@@ -312,7 +312,7 @@ def transcribe_audio_simple_v2(audio_path, output_path=None, language=None, devi
     
     # Write markdown output
     print(f"Writing transcript to: {output_path}")
-    write_markdown_transcript(result, output_path)
+    write_markdown_transcript(result, output_path, title=Path(audio_path).stem)
     
     # Clean up
     del model
@@ -334,18 +334,22 @@ def transcribe_audio_simple_v2(audio_path, output_path=None, language=None, devi
     return output_path
 
 
-def write_markdown_transcript(result, output_path):
+def write_markdown_transcript(result, output_path, title=None):
     """
     Write transcription results to a markdown file with speaker diarization.
     
     Args:
         result (dict): WhisperX transcription result
         output_path (str): Path to output markdown file
+        title (str): Title for the transcript (optional)
     """
     
     with open(output_path, 'w', encoding='utf-8') as f:
-        # Write header
-        f.write("# Audio Transcription\n\n")
+        # Write header with title or default
+        if title:
+            f.write(f"# {title}\n\n")
+        else:
+            f.write("# Audio Transcription\n\n")
         f.write(f"**Language:** {result.get('language', 'Unknown')}\n\n")
         f.write("---\n\n")
         

@@ -263,11 +263,11 @@ def transcribe_audio_advanced_v1(audio_path, output_path=None, language=None, de
     # Generate output filename if not provided
     if output_path is None:
         audio_name = Path(audio_path).stem
-        output_path = f"{audio_name}_advanced_transcript.md"
+        output_path = f"{audio_name}_advanced_v1_transcript.md"
     
     # Write markdown output
     print(f"Writing transcript to: {output_path}")
-    write_advanced_markdown_transcript(result, output_path)
+    write_advanced_markdown_transcript(result, output_path, title=Path(audio_path).stem)
     
     # Clean up
     del model
@@ -289,18 +289,22 @@ def transcribe_audio_advanced_v1(audio_path, output_path=None, language=None, de
     return output_path
 
 
-def write_advanced_markdown_transcript(result, output_path):
+def write_advanced_markdown_transcript(result, output_path, title=None):
     """
     Write transcription results to a markdown file with advanced formatting.
     
     Args:
         result (dict): WhisperX transcription result
         output_path (str): Path to output markdown file
+        title (str): Title for the transcript (optional)
     """
     
     with open(output_path, 'w', encoding='utf-8') as f:
-        # Write header
-        f.write("# Advanced Audio Transcription\n\n")
+        # Write header with title or default
+        if title:
+            f.write(f"# {title}\n\n")
+        else:
+            f.write("# Audio Transcription\n\n")
         f.write(f"**Language:** {result.get('language', 'Unknown')}\n\n")
         f.write("---\n\n")
         
@@ -319,18 +323,9 @@ def write_advanced_markdown_transcript(result, output_path):
                 f.write(f"\n## {speaker}\n\n")
                 current_speaker = speaker
             
-            # Write segment with timestamp and confidence
+            # Write segment with timestamp and confidence (sentence block only)
             confidence_str = f" (confidence: {confidence:.2f})" if confidence != 0 else ""
             f.write(f"**[{start_time} - {end_time}]{confidence_str}** {text}\n\n")
-            
-            # Add word-level timestamps if available
-            if "words" in segment and segment["words"]:
-                f.write("```\n")
-                for word in segment["words"]:
-                    word_start = format_time(word["start"])
-                    word_end = format_time(word["end"])
-                    f.write(f"{word_start}-{word_end}: {word['word']}\n")
-                f.write("```\n\n")
         
         # Write comprehensive summary
         f.write("---\n\n")
@@ -736,7 +731,8 @@ def main():
                 diarization_model=args.diarization_model,
                 num_speakers=args.num_speakers,
                 min_speakers=args.min_speakers,
-                max_speakers=args.max_speakers
+                max_speakers=args.max_speakers,
+                title=Path(args.audio_file).stem
             )
         
         print(f"✅ Advanced transcription completed successfully!")
@@ -749,7 +745,7 @@ def main():
 
 def transcribe_audio_advanced_v2(audio_path, output_path=None, language=None, device="cuda", 
                                 model_size="large-v3", diarization_model="pyannote/speaker-diarization-3.1",
-                                num_speakers=None, min_speakers=4, max_speakers=20):
+                                num_speakers=None, min_speakers=4, max_speakers=20, title=None):
     """
     Version 2: Advanced transcription using pyannote-audio documentation approach with itertracks.
     
@@ -763,6 +759,7 @@ def transcribe_audio_advanced_v2(audio_path, output_path=None, language=None, de
         num_speakers (int): Exact number of speakers (if known)
         min_speakers (int): Minimum number of speakers to detect
         max_speakers (int): Maximum number of speakers to detect
+        title (str): Title for the transcript (optional)
     
     Returns:
         str: Path to the output markdown file
@@ -957,7 +954,7 @@ def transcribe_audio_advanced_v2(audio_path, output_path=None, language=None, de
     
     # Write markdown output
     print(f"Writing transcript to: {output_path}")
-    write_advanced_markdown_transcript(result, output_path)
+    write_advanced_markdown_transcript(result, output_path, title=title)
     
     # Clean up
     del model
