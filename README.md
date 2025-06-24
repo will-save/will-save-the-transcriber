@@ -195,11 +195,11 @@ If you encounter issues:
 
 ## Performance Tips
 
-- Use `large-v3` model for best quality (requires more memory)
-- Use `medium` model for balanced speed/quality
-- Use `small` or `base` for faster processing
-- GPU processing is 5-10x faster than CPU
-- The advanced script provides better diarization but takes longer
+- **Use GPU acceleration** if available (CUDA) for faster transcription
+- **Large model** provides best accuracy but slower processing
+- **Episode skipping** automatically checks for existing transcripts before downloading audio
+- **Audio cleanup** happens immediately after each episode to save disk space
+- **Batch processing** handles multiple episodes efficiently
 
 ## Quick Start Examples
 
@@ -249,12 +249,12 @@ python podcast_transcriber.py --rss-url "https://your-podcast-feed.xml"
 
 **What this does:**
 1. **Fetches RSS feed** from Will Save the Podcast
-2. **Downloads audio files** for each episode
-3. **Organizes by series** (Threefold Conspiracy Book 1, Unknown Treasures, etc.)
-4. **Transcribes each episode** using advanced diarization
-5. **Saves markdown files** in organized directory structure
-6. **Skips existing transcripts** (incremental processing)
-7. **Cleans up audio files** after transcription
+2. **Checks for existing transcripts** before downloading audio files
+3. **Downloads audio files** only for episodes that need transcription
+4. **Organizes by series** (Threefold Conspiracy Book 1, Unknown Treasures, etc.)
+5. **Transcribes each episode** using advanced diarization
+6. **Saves markdown files** in organized directory structure
+7. **Cleans up audio files** immediately after each episode transcription
 
 **Output structure:**
 ```

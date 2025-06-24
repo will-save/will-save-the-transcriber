@@ -167,11 +167,7 @@ class PodcastTranscriber:
         """Download audio file."""
         audio_path = self.audio_dir / filename
         
-        # Skip if already exists
-        if audio_path.exists():
-            print(f"⏭️  Audio file already exists: {filename}")
-            return audio_path
-        
+        # Always download - don't skip if exists since we clean up after each episode
         print(f"⬇️  Downloading: {filename}")
         try:
             response = requests.get(url, stream=True, timeout=60)
@@ -209,16 +205,27 @@ class PodcastTranscriber:
             sanitized_key = self.sanitize_filename(series_key)
             return self.episodes_dir / sanitized_key
     
-    def transcribe_episode(self, episode: Dict, audio_path: Path, series_dir: Path) -> bool:
+    def cleanup_episode_audio(self, audio_path: Path, wav_path: Path):
+        """Clean up audio files for a specific episode."""
+        try:
+            # Clean up original audio file
+            if audio_path.exists():
+                audio_path.unlink()
+                print(f"🗑️  Deleted: {audio_path.name}")
+            
+            # Clean up WAV file if it's different from the original
+            if wav_path != audio_path and wav_path.exists():
+                wav_path.unlink()
+                print(f"🗑️  Deleted: {wav_path.name}")
+                
+        except Exception as e:
+            print(f"⚠️  Error cleaning up episode audio files: {e}")
+    
+    def transcribe_episode(self, episode: Dict, audio_path: Path, wav_path: Path, series_dir: Path) -> bool:
         """Transcribe a single episode."""
         # Create sanitized filename
         sanitized_title = self.sanitize_filename(episode['title'])
         output_path = series_dir / f"{sanitized_title}.md"
-        
-        # Skip if transcript already exists
-        if output_path.exists():
-            print(f"⏭️  Transcript already exists: {output_path.name}")
-            return True
         
         print(f"🎤 Transcribing: {episode['title']}")
         
@@ -228,7 +235,7 @@ class PodcastTranscriber:
             
             # Transcribe using the advanced transcriber with version 2 diarization
             transcribe_audio_advanced_v2(
-                audio_path=str(audio_path),
+                audio_path=str(wav_path),
                 output_path=str(output_path),
                 language='en',  # Default to English for podcast episodes
                 device='cuda' if self.check_cuda_available() else 'cpu',
@@ -240,10 +247,16 @@ class PodcastTranscriber:
             )
             
             print(f"✅ Transcribed: {output_path.name}")
+            
+            # Clean up audio files immediately after successful transcription
+            self.cleanup_episode_audio(audio_path, wav_path)
+            
             return True
             
         except Exception as e:
             print(f"❌ Error transcribing {episode['title']}: {e}")
+            # Clean up audio files even if transcription failed
+            self.cleanup_episode_audio(audio_path, wav_path)
             return False
     
     def check_cuda_available(self) -> bool:
@@ -288,8 +301,8 @@ class PodcastTranscriber:
             return input_path
     
     def cleanup_audio_files(self):
-        """Clean up downloaded audio files."""
-        print("🧹 Cleaning up audio files...")
+        """Clean up any remaining audio files (fallback method)."""
+        print("🧹 Cleaning up any remaining audio files...")
         try:
             for audio_file in self.audio_dir.glob("*"):
                 if audio_file.is_file():
@@ -329,6 +342,7 @@ class PodcastTranscriber:
         # Process each series
         total_episodes = 0
         processed_episodes = 0
+        skipped_episodes = 0
         
         for series_key, series_episodes in series.items():
             series_dir = self.get_series_directory(series_key)
@@ -343,12 +357,20 @@ class PodcastTranscriber:
             for episode in series_episodes:
                 total_episodes += 1
                 
+                # Check if transcript already exists before downloading
+                sanitized_title = self.sanitize_filename(episode['title'])
+                output_path = series_dir / f"{sanitized_title}.md"
+                
+                if output_path.exists():
+                    print(f"⏭️  Skipping {episode['title']} - transcript already exists")
+                    skipped_episodes += 1
+                    continue
+                
                 # Generate filename for audio download
                 file_extension = Path(urlparse(episode['enclosure_url']).path).suffix
                 if not file_extension:
                     file_extension = '.mp3'  # Default extension
                 
-                sanitized_title = self.sanitize_filename(episode['title'])
                 audio_filename = f"{sanitized_title}{file_extension}"
                 
                 # Download audio
@@ -359,17 +381,18 @@ class PodcastTranscriber:
                 # Convert audio to WAV
                 wav_path = self.convert_audio_to_wav(audio_path)
                 
-                # Transcribe episode
-                if self.transcribe_episode(episode, wav_path, series_dir):
+                # Transcribe episode (audio files are cleaned up within this method)
+                if self.transcribe_episode(episode, audio_path, wav_path, series_dir):
                     processed_episodes += 1
         
-        # Cleanup
+        # Final cleanup as fallback (in case any files were missed)
         if cleanup_audio:
             self.cleanup_audio_files()
         
         print("\n" + "=" * 50)
         print(f"✅ Transcription complete!")
         print(f"📊 Processed {processed_episodes}/{total_episodes} episodes")
+        print(f"⏭️  Skipped {skipped_episodes} episodes (already transcribed)")
         print(f"📁 Transcripts saved to: {self.episodes_dir}")
 
 
