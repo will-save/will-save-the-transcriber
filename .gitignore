@@ -3,6 +3,7 @@ sync.sh
 **/.DS_Store
 audio/*
 .env
+episodes/.last_check
 
 # Python
 __pycache__/
