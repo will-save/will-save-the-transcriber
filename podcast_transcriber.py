@@ -20,11 +20,13 @@ import argparse
 import subprocess
 import tempfile
 from transcribe_advanced import transcribe_audio_advanced_v2
+from transcribe_simple import transcribe_audio_simple_v2
 
 
 class PodcastTranscriber:
-    def __init__(self, rss_url: str = "https://feed.podbean.com/willsavethepodcast/feed.xml"):
+    def __init__(self, rss_url: str = "https://feed.podbean.com/willsavethepodcast/feed.xml", transcription_method: str = "simple"):
         self.rss_url = rss_url
+        self.transcription_method = transcription_method
         self.episodes_dir = Path("episodes")
         self.audio_dir = Path("audio")
         self.is_will_save_podcast = "willsavethepodcast" in rss_url.lower()
@@ -227,24 +229,37 @@ class PodcastTranscriber:
         sanitized_title = self.sanitize_filename(episode['title'])
         output_path = series_dir / f"{sanitized_title}.md"
         
-        print(f"🎤 Transcribing: {episode['title']}")
+        print(f"🎤 Transcribing: {episode['title']} (using {self.transcription_method} method)")
         
         try:
             # Create series directory if it doesn't exist
             series_dir.mkdir(parents=True, exist_ok=True)
             
-            # Transcribe using the advanced transcriber with version 2 diarization
-            transcribe_audio_advanced_v2(
-                audio_path=str(wav_path),
-                output_path=str(output_path),
-                language='en',  # Default to English for podcast episodes
-                device='cuda' if self.check_cuda_available() else 'cpu',
-                model_size='large-v3',
-                min_speakers=1,
-                max_speakers=10,
-                num_speakers=None,
-                title=episode['title']
-            )
+            # Choose transcription method
+            if self.transcription_method == "simple":
+                # Use simple transcription with version 2 diarization
+                transcribe_audio_simple_v2(
+                    audio_path=str(wav_path),
+                    output_path=str(output_path),
+                    language='en',  # Default to English for podcast episodes
+                    device='cuda' if self.check_cuda_available() else 'cpu',
+                    model_size='large-v3'
+                )
+            elif self.transcription_method == "advanced":
+                # Use advanced transcription with version 2 diarization
+                transcribe_audio_advanced_v2(
+                    audio_path=str(wav_path),
+                    output_path=str(output_path),
+                    language='en',  # Default to English for podcast episodes
+                    device='cuda' if self.check_cuda_available() else 'cpu',
+                    model_size='large-v3',
+                    min_speakers=1,
+                    max_speakers=30,
+                    num_speakers=None,
+                    title=episode['title']
+                )
+            else:
+                raise ValueError(f"Unknown transcription method: {self.transcription_method}")
             
             print(f"✅ Transcribed: {output_path.name}")
             
@@ -318,6 +333,7 @@ class PodcastTranscriber:
         else:
             print("🎙️  Starting Podcast Transcription Process")
             print("⚠️  Note: This RSS feed is not Will Save the Podcast. Series organization may not work as expected.")
+        print(f"🔧 Using {self.transcription_method} transcription method")
         print("=" * 50)
         
         # Fetch and parse RSS feed
@@ -402,10 +418,12 @@ def main():
                        help="RSS feed URL (default: Will Save the Podcast feed)")
     parser.add_argument("--keep-audio", action="store_true",
                        help="Keep downloaded audio files (default: delete after transcription)")
+    parser.add_argument("-m", "--method", choices=["simple", "advanced"], default="simple",
+                       help="Transcription method: simple (faster) or advanced (more features) (default: simple)")
     
     args = parser.parse_args()
     
-    transcriber = PodcastTranscriber(args.rss_url)
+    transcriber = PodcastTranscriber(args.rss_url, args.method)
     transcriber.run(cleanup_audio=not args.keep_audio)
 
 

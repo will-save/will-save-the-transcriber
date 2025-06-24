@@ -90,7 +90,7 @@ def load_hf_token():
 
 def transcribe_audio_advanced_v1(audio_path, output_path=None, language=None, device="cuda", 
                                 model_size="large-v3", diarization_model="pyannote/speaker-diarization-3.1",
-                                num_speakers=None, min_speakers=1, max_speakers=20):
+                                num_speakers=None, min_speakers=1, max_speakers=20, include_word_timestamps=True):
     """
     Version 1: Advanced transcription with multiple model options and better diarization.
     
@@ -104,6 +104,7 @@ def transcribe_audio_advanced_v1(audio_path, output_path=None, language=None, de
         num_speakers (int): Exact number of speakers (if known)
         min_speakers (int): Minimum number of speakers to detect
         max_speakers (int): Maximum number of speakers to detect
+        include_word_timestamps (bool): Whether to include word-level timestamps in output
     
     Returns:
         str: Path to the output markdown file
@@ -153,7 +154,7 @@ def transcribe_audio_advanced_v1(audio_path, output_path=None, language=None, de
         metadata, 
         audio, 
         device, 
-        return_char_alignments=False
+        return_char_alignments=include_word_timestamps
     )
     
     # Advanced diarization with multiple fallback options
@@ -267,7 +268,7 @@ def transcribe_audio_advanced_v1(audio_path, output_path=None, language=None, de
     
     # Write markdown output
     print(f"Writing transcript to: {output_path}")
-    write_advanced_markdown_transcript(result, output_path, title=Path(audio_path).stem)
+    write_advanced_markdown_transcript(result, output_path, title=Path(audio_path).stem, include_word_timestamps=include_word_timestamps)
     
     # Clean up
     del model
@@ -289,7 +290,7 @@ def transcribe_audio_advanced_v1(audio_path, output_path=None, language=None, de
     return output_path
 
 
-def write_advanced_markdown_transcript(result, output_path, title=None):
+def write_advanced_markdown_transcript(result, output_path, title=None, include_word_timestamps=True):
     """
     Write transcription results to a markdown file with advanced formatting.
     
@@ -297,6 +298,7 @@ def write_advanced_markdown_transcript(result, output_path, title=None):
         result (dict): WhisperX transcription result
         output_path (str): Path to output markdown file
         title (str): Title for the transcript (optional)
+        include_word_timestamps (bool): Whether to include word-level timestamps in output
     """
     
     with open(output_path, 'w', encoding='utf-8') as f:
@@ -305,7 +307,13 @@ def write_advanced_markdown_transcript(result, output_path, title=None):
             f.write(f"# {title}\n\n")
         else:
             f.write("# Audio Transcription\n\n")
-        f.write(f"**Language:** {result.get('language', 'Unknown')}\n\n")
+        
+        # Fix language output - ensure we get the detected language properly
+        detected_language = result.get('language', 'Unknown')
+        if detected_language and detected_language != 'Unknown':
+            f.write(f"**Language:** {detected_language}\n\n")
+        else:
+            f.write("**Language:** Unknown\n\n")
         f.write("---\n\n")
         
         # Write segments with speaker labels and confidence
@@ -323,9 +331,23 @@ def write_advanced_markdown_transcript(result, output_path, title=None):
                 f.write(f"\n## {speaker}\n\n")
                 current_speaker = speaker
             
-            # Write segment with timestamp and confidence (sentence block only)
+            # Write segment with timestamp and confidence
             confidence_str = f" (confidence: {confidence:.2f})" if confidence != 0 else ""
             f.write(f"**[{start_time} - {end_time}]{confidence_str}** {text}\n\n")
+            
+            # Write individual words with timestamps if available
+            if "words" in segment and segment["words"] and include_word_timestamps:
+                f.write("**Words:**\n")
+                for word_info in segment["words"]:
+                    word = word_info.get("word", "").strip()
+                    word_start = word_info.get("start", 0)
+                    word_end = word_info.get("end", 0)
+                    
+                    if word and word_start is not None and word_end is not None:
+                        word_start_time = format_time(word_start)
+                        word_end_time = format_time(word_end)
+                        f.write(f"  - **[{word_start_time} - {word_end_time}]** {word}\n")
+                f.write("\n")
         
         # Write comprehensive summary
         f.write("---\n\n")
@@ -669,6 +691,8 @@ def main():
                        help="Test .env file loading and token validation")
     parser.add_argument("-v", "--version", choices=["1", "2"], default="2",
                        help="Diarization version: 1 (original) or 2 (pyannote-audio docs approach) (default: 2)")
+    parser.add_argument("--no-word-timestamps", action="store_true",
+                       help="Disable word-level timestamps in output (faster processing)")
     
     args = parser.parse_args()
     
@@ -705,6 +729,7 @@ def main():
         print(f"   Min speakers: {args.min_speakers}")
         print(f"   Max speakers: {args.max_speakers}")
         print(f"   Exact speakers: {args.num_speakers or 'auto-detect'}")
+        print(f"   Word timestamps: {'disabled' if args.no_word_timestamps else 'enabled'}")
         print()
         
         if args.version == "1":
@@ -718,7 +743,8 @@ def main():
                 diarization_model=args.diarization_model,
                 num_speakers=args.num_speakers,
                 min_speakers=args.min_speakers,
-                max_speakers=args.max_speakers
+                max_speakers=args.max_speakers,
+                include_word_timestamps=not args.no_word_timestamps
             )
         else:
             print("🎤 Using diarization version 2 (pyannote-audio docs approach)")
@@ -732,7 +758,8 @@ def main():
                 num_speakers=args.num_speakers,
                 min_speakers=args.min_speakers,
                 max_speakers=args.max_speakers,
-                title=Path(args.audio_file).stem
+                title=Path(args.audio_file).stem,
+                include_word_timestamps=not args.no_word_timestamps
             )
         
         print(f"✅ Advanced transcription completed successfully!")
@@ -745,7 +772,7 @@ def main():
 
 def transcribe_audio_advanced_v2(audio_path, output_path=None, language=None, device="cuda", 
                                 model_size="large-v3", diarization_model="pyannote/speaker-diarization-3.1",
-                                num_speakers=None, min_speakers=4, max_speakers=20, title=None):
+                                num_speakers=None, min_speakers=4, max_speakers=20, title=None, include_word_timestamps=True):
     """
     Version 2: Advanced transcription using pyannote-audio documentation approach with itertracks.
     
@@ -760,6 +787,7 @@ def transcribe_audio_advanced_v2(audio_path, output_path=None, language=None, de
         min_speakers (int): Minimum number of speakers to detect
         max_speakers (int): Maximum number of speakers to detect
         title (str): Title for the transcript (optional)
+        include_word_timestamps (bool): Whether to include word-level timestamps in output
     
     Returns:
         str: Path to the output markdown file
@@ -809,7 +837,7 @@ def transcribe_audio_advanced_v2(audio_path, output_path=None, language=None, de
         metadata, 
         audio, 
         device, 
-        return_char_alignments=False
+        return_char_alignments=include_word_timestamps
     )
     
     # Advanced diarization with documentation approach (Version 2)
@@ -954,7 +982,7 @@ def transcribe_audio_advanced_v2(audio_path, output_path=None, language=None, de
     
     # Write markdown output
     print(f"Writing transcript to: {output_path}")
-    write_advanced_markdown_transcript(result, output_path, title=title)
+    write_advanced_markdown_transcript(result, output_path, title=title, include_word_timestamps=include_word_timestamps)
     
     # Clean up
     del model
