@@ -2440,12 +2440,9 @@
 **[00:54:00 - 00:54:02]** No, it's quite all right.
 
 
-## Speaker_Kelly Gilliam3
+## Jon Swan (Agent Larue)
 
 **[00:54:02 - 00:54:05]** It's not a problem.
-
-
-## Jon Swan (GM)
 
 **[00:54:05 - 00:54:15]** We are... I am here as part of some steward's business, and we have some information, and we are simply...
 
@@ -2459,9 +2456,15 @@
 
 **[00:54:28 - 00:54:32]** There's nothing personal about it whatsoever.
 
+
+## Nicholas Belcher (Niko Orion)
+
 **[00:54:32 - 00:54:33]** I'm sorry.
 
 **[00:54:34 - 00:54:36]** It's just been a day.
+
+
+## Jon Swan (Agent Larue)
 
 **[00:54:36 - 00:54:36]** I understand.
 
@@ -2471,17 +2474,14 @@
 
 **[00:54:41 - 00:54:42]** It's quite easy.
 
-
-## Speaker_Kelly Gilliam3
-
-**[00:54:42 - 00:54:46]** I also would like to move on with my day, right, Matt?
+**[00:54:42 - 00:54:46]** I also would like to move on with my day, right?
 
 **[00:54:48 - 00:54:52]** No, I do have to ask you again, so we can move over this together.
 
 **[00:54:54 - 00:54:56]** What is your name?
 
 
-## Jon Swan (GM)
+## Nicholas Belcher (Niko Orion)
 
 **[00:54:56 - 00:54:57]** Niko.
 
@@ -2492,49 +2492,56 @@
 **[00:55:01 - 00:55:03]** Well, again, my name is LaRue.
 
 
-## Speaker_Kelly Gilliam3
+## Jon Swan (Agent Larue)
 
 **[00:55:03 - 00:55:07]** L-A-R-U-E, in case you forgot.
 
 **[00:55:07 - 00:55:12]** So, what's your purpose for traveling to Absalom Station?
 
+
+## Nicholas Belcher (Niko Orion)
+
 **[00:55:12 - 00:55:13]** Travel.
+
+
+## Jon Swan (Agent Larue)
 
 **[00:55:14 - 00:55:16]** Traveling to travel.
 
 
-## Will Garrett
-
-**[00:55:16 - 00:55:16]** Yes.
-
-
-## Kelly Gilliam
+## Nicholas Belcher (Niko Orion)
 
 **[00:55:16 - 00:55:16]** Yes.
 
 
 ## Will Garrett
 
-**[00:55:17 - 00:55:18]** Business or leisure.
+**[00:55:17 - 00:55:18]** Business or leisure.?
 
 
-## Speaker_Kelly Gilliam3
+## Jon Swan (Agent Larue)
 
 **[00:55:22 - 00:55:24]** Do you care to explain any more?
 
+
+## Nicholas Belcher (Niko Orion)
+
 **[00:55:24 - 00:55:25]** Just travel.
+
+
+## Jon Swan (Agent Larue)
 
 **[00:55:25 - 00:55:26]** Indeed, just travel.
 
 
-## Speaker_Kelly Gilliam2
+## Nicholas Belcher (Niko Orion)
 
 **[00:55:27 - 00:55:33]** I just thought I might catch a little bit of the starlight.
 
 **[00:55:34 - 00:55:38]** She writes a little longer than you would have thought.
 
 
-## Speaker_Kelly Gilliam3
+## Jon Swan (Agent Larue)
 
 **[00:55:41 - 00:55:47]** And could you please explain your whereabouts in the past 24 hours?
 
@@ -2563,32 +2570,41 @@
 **[00:56:22 - 00:56:30]** The Vesk naturally steps ahead, clearly at a leading bodyguard's distance, trying to part the crowd to their sky limo.
 
 
-## Speaker_Kelly Gilliam7
+## Jon Swan (Unknown Reporter 1)
 
 **[00:56:31 - 00:56:35]** What is your reaction to being voted out by your own board of directors?
 
 
-## Jon Swan (GM)
+## Jon Swan (Unknown Reporter 2)
 
 **[00:56:36 - 00:56:41]** Is it true that your own mother led the charge to oust you from the company?
 
 
-## Speaker_Kelly Gilliam7
+## Jon Swan (Unknown Reporter 3)
 
 **[00:56:42 - 00:56:46]** Did the board oust you because of your suspected illegal drug abuse?
 
+
+## Nicholas Belcher (Niko Orion)
+
 **[00:56:47 - 00:56:48]** How could she do this?
+
+
+## Jon Swan (Zentuko)
 
 **[00:56:49 - 00:56:50]** We need to leave.
 
 **[00:56:50 - 00:56:51]** It's not safe here.
 
 
-## Jon Swan (GM)
+## Nicholas Belcher (Niko Orion)
 
 **[00:56:52 - 00:56:53]** Illegal drugs?
 
 **[00:56:54 - 00:56:56]** I never even touched the stuff.
+
+
+## Jon Swan (Zentuko)
 
 **[00:56:56 - 00:56:57]** I don't think this is about you.
 
@@ -2596,14 +2612,17 @@
 
 **[00:56:57 - 00:57:00]** I think this is about some of the work your father did.
 
-
-## Speaker_Kelly Gilliam2
-
 **[00:57:00 - 00:57:03]** Did you grab anything from your office before you left?
+
+
+## Nicholas Belcher (Niko Orion)
 
 **[00:57:04 - 00:57:05]** No.
 
 **[00:57:05 - 00:57:08]** This is more about the work that you still can't tell me about.
+
+
+## Jon Swan (Zentuko)
 
 **[00:57:08 - 00:57:09]** Get back, everyone!
 
@@ -2619,15 +2638,21 @@
 **[00:57:32 - 00:57:38]** Nico follows up closely behind Zentuko.
 
 
-## Speaker_Kelly Gilliam2
+## Nicholas Belcher (Niko Orion)
 
 **[00:57:39 - 00:57:42]** Are you ever going to tell me about what you and my father did?
 
 **[00:57:42 - 00:57:43]** I think I have a right to know.
 
+
+## Jon Swan (Zentuko)
+
 **[00:57:44 - 00:57:46]** I will, but not here.
 
 **[00:57:47 - 00:57:51]** It's not safe.
+
+
+## Nicholas Belcher (Niko Orion)
 
 **[00:57:51 - 00:57:52]** Where's the Neb?
 
@@ -2640,7 +2665,7 @@
 
 **[00:57:58 - 00:58:02]** Nico sees Zentuko take out his azimuth laser pistol slowly.
 
-**[00:58:03 - 00:58:08]** After a moment of observation, Nico notices and Tuco's eyes are drawn to the distance.
+**[00:58:03 - 00:58:08]** After a moment of observation, Nico notices and Zentuco's eyes are drawn to the distance.
 
 **[00:58:08 - 00:58:17]** He sees a small flash and has just enough time to register the meaning before a large, vesk arm swings around him, pulling him to the ground.
 
@@ -2651,7 +2676,7 @@
 **[00:58:32 - 00:58:34]** Sirens began in the distance.
 
 
-## Speaker_SPEAKER_15
+## Nicholas Belcher (Niko Orion)
 
 **[00:58:37 - 00:58:40]** Alright, you're right.
 
@@ -2663,6 +2688,14 @@
 **[00:58:43 - 00:58:46]** When Zentuko doesn't respond, Niko starts to worry.
 
 **[00:58:46 - 00:58:52]** He throws Zentuko off to the side of him, face up, grabs Zentuko's shoulders and shakes him.
+
+
+## Nicholas Belcher (Niko Orion)
+
+**[00:58:52 - 00:58:53]** Zen!
+
+
+## Jon Swan (GM)
 
 **[00:58:53 - 00:58:58]** Niko begins to check his friend's body, confused why his friend wasn't responding.
 
@@ -2676,9 +2709,15 @@
 
 **[00:59:18 - 00:59:21]** Applying pressure to the wound, he called out...
 
+
+## Nicholas Belcher (Niko Orion)
+
 **[00:59:21 - 00:59:24]** Help!
 
 **[00:59:24 - 00:59:24]** I need a medic!
+
+
+## Jon Swan (GM)
 
 **[00:59:24 - 00:59:26]** Silence is the only response.
 
@@ -2687,21 +2726,18 @@
 **[00:59:32 - 00:59:35]** Breathing erratically, he grasps Nico tightly.
 
 
-## Speaker_SPEAKER_15
+## Jon Swan (Zentuko)
 
 **[00:59:37 - 00:59:40]** Not Noah.
 
-
-## Speaker_Kelly Gilliam5
-
 **[00:59:40 - 00:59:40]** The picture.
-
-
-## Jon Swan (GM)
 
 **[00:59:41 - 00:59:43]** The picture of you and your father.
 
 **[00:59:44 - 00:59:45]** Find it.
+
+
+## Jon Swan (GM)
 
 **[00:59:46 - 00:59:50]** Shock, concern, and resignation ward for control of Niko's thoughts.
 
@@ -2710,11 +2746,14 @@
 **[01:00:01 - 01:00:09]** Unable to control himself, Niko's tears resume their former course.
 
 
-## Speaker_SPEAKER_15
+## Nicholas Belcher (Niko Orion)
 
-**[01:00:09 - 01:00:10]** Zintuko... Go, Niko.
+**[01:00:09 - 01:00:10]** Zen... 
 
-**[01:00:10 - 01:00:11]** Leave me.
+
+## Jon Swan (Zentuko)
+
+**[01:00:10 - 01:00:11]** Go, Niko. Leave me.
 
 **[01:00:12 - 01:00:13]** Make this count.
 
@@ -2729,10 +2768,12 @@
 
 **[01:00:26 - 01:00:31]** Zentuko's hands find Niko's shoulders with failing strength.
 
-**[01:00:31 - 01:00:41]** With a wry smile, he says, I guess they were right in the end.
+**[01:00:31 - 01:00:37]** With a wry smile, he says, 
 
 
-## Speaker_Kelly Gilliam5
+## Jon Swan (Zentuko)
+
+**[01:00:31 - 01:00:37]** I guess they were right in the end.
 
 **[01:00:41 - 01:00:43]** My heart never again.
 
@@ -2741,19 +2782,19 @@
 
 ## Jon Swan (GM)
 
-**[01:00:50 - 01:00:58]** These were the last words Zenchuko managed to gasp as his eyes became host to death's vacant stare.
+**[01:00:50 - 01:00:58]** These were the last words Zentuko managed to gasp as his eyes became host to death's vacant stare.
 
 
-## Speaker_Kelly Gilliam8
+## Nicholas Belcher (Niko Orion)
 
 **[01:01:00 - 01:01:01]** Zen!
-
-
-## Speaker_Kelly Gilliam2
 
 **[01:01:01 - 01:01:01]** Zen!
 
 **[01:01:03 - 01:01:05]** Zen!
+
+
+## Nicholas Belcher 
 
 **[01:01:05 - 01:01:07]** Niko cried and banged his hands against the platform.
 
@@ -2793,15 +2834,18 @@
 
 **[01:01:59 - 01:02:02]** Your guys' voice acting is so good.
 
+
+## Nicholas Belcher 
+
 **[01:02:05 - 01:02:07]** You know... I appreciate that, man.
 
 
 ## Jon Swan (Agent Larue)
 
-**[01:02:08 - 01:02:12]** Hey, here's the thing about recruitment.
+**[01:02:08 - 01:02:12]** Hey, you guys should think about recording a podcast.
 
 
-## Jon Swan (GM)
+## Jon Swan
 
 **[01:02:12 - 01:02:17]** Hey, I'm just gonna say, I know that, you know, we came up with this story and all this stuff, and you killed it.
 
@@ -2816,45 +2860,41 @@
 
 ## Kelly Gilliam
 
-**[01:02:30 - 01:02:33]** I mean, like, here's what can relate to the loss of your friend, man.
+**[01:02:30 - 01:02:33]** I mean, like, Heerz can relate to the loss of your friend, man.
 
 **[01:02:33 - 01:02:34]** Like...
 
 **[01:02:34 - 01:02:37]** I feel you.
 
 
-## Speaker_Kelly Gilliam2
+## Kelly Gilliam (Heerz)
 
 **[01:02:37 - 01:02:38]** I feel you, bro.
 
-**[01:02:38 - 01:02:39]** I feel you.
 
-
-## Kelly Gilliam
-
-**[01:02:39 - 01:02:39]** I feel you.
-
-
-## Speaker_Kelly Gilliam2
+## Nicholas Belcher
 
 **[01:02:40 - 01:02:44]** This is going to be an interesting campaign here.
 
 **[01:02:44 - 01:02:53]** We got a shady pharmaceutical sales rep, a pirate, a murder bot, and a weapons vendor.
 
 
-## Kevin Decker
+## Kevin Decker (RICK-19)
 
 **[01:02:53 - 01:02:59]** I find the term murder bot inappropriate and kind of rude.
 
 
-## Will Garrett
+## Will Garrett (Dr. OK)
 
 **[01:02:59 - 01:03:05]** I am a pharmaceutical researcher, sir.
+
+
+## Kelly Gilliam (Heerz)
 
 **[01:03:06 - 01:03:08]** Technically, I'm a former pirate, so...
 
 
-## Speaker_Kelly Gilliam3
+## Jon Swan (Agent Larue)
 
 **[01:03:11 - 01:03:15]** It seems you all are making fast friends here.
 
@@ -2863,7 +2903,7 @@
 **[01:03:19 - 01:03:24]** So, as I said, could you please explain your whereabouts in the past 24 hours?
 
 
-## Speaker_Kelly Gilliam2
+## Nicholas Belcher (Niko Orion)
 
 **[01:03:25 - 01:03:26]** Um, well...
 
@@ -2871,22 +2911,22 @@
 
 **[01:03:31 - 01:03:34]** I've, uh... Voted out of my own company.
 
-**[01:03:34 - 01:03:48]** Had my... My closest friend and a father... Got down before my eyes and... I made a desperate getaway in a, uh, sky... How's about... How about that for... How about we just call that a day on my rear-mouse?
+**[01:03:34 - 01:03:48]** Had my... My closest friend and a father... Got down before my eyes and... I made a desperate getaway in a, uh, sky... How's about... How about that for... How about we just call that a day on my whearabouts?
 
 
-## Speaker_Kelly Gilliam3
+## John Swan (Agent Larue)
 
 **[01:03:48 - 01:03:51]** Well, I can say that I can't relate to any of that.
 
 **[01:03:51 - 01:03:55]** But, uh... I do understand tough days...
 
 
-## Will Garrett
+## Will Garrett (Dr. OK)
 
-**[01:03:55 - 01:03:57]** What's a Skylimbo look like?
+**[01:03:55 - 01:03:57]** What's a Skylimo look like?
 
 
-## Speaker_Kelly Gilliam2
+## Nicholas Belcher
 
 **[01:03:59 - 01:04:10]** Well, it looks like one of those air speeders in Attack of the Clones that we were talking about before we started recording the podcast, but just, like, longer.
 
@@ -2896,24 +2936,36 @@
 **[01:04:10 - 01:04:11]** Is it open air?
 
 
-## Speaker_Kelly Gilliam2
+## Nicholas Belcher
 
 **[01:04:11 - 01:04:13]** It is open air, actually.
+
+
+## Kelly Gilliam
 
 **[01:04:13 - 01:04:14]** Nice.
 
 **[01:04:14 - 01:04:14]** I like that.
 
+
+## Nicholas Belcher
+
 **[01:04:14 - 01:04:17]** With the capacity of being closed to the air.
 
 **[01:04:17 - 01:04:18]** It's, like, convertible.
 
+
+## Kelly Gilliam
+
 **[01:04:19 - 01:04:20]** But did you get away in the open air?
+
+
+## Nicholas Belcher
 
 **[01:04:21 - 01:04:24]** Yeah, it's convertible Skylimbo air.
 
 
-## Speaker_Kelly Gilliam3
+## Jon Swan (Agent Larue)
 
 **[01:04:25 - 01:04:26]** Well, I understand.
 
@@ -2923,24 +2975,34 @@
 **[01:04:26 - 01:04:32]** She kind of writes down a few things in her datapad again.
 
 
-## Speaker_Kelly Gilliam3
+## Jon Swan (Agent Larue)
 
 **[01:04:32 - 01:04:33]** Have a good trip.
 
-
-## Jon Swan (GM)
 
 **[01:04:33 - 01:04:38]** I hope the rest of your days are happier than today.
 
 **[01:04:38 - 01:04:41]** I hope this will be the worst of them all.
 
+
+## Nicholas Belcher
+
 **[01:04:42 - 01:04:44]** Perfect.
 
+
+## Will Garrett
+
 **[01:04:44 - 01:04:45]** That seems super likely.
+
+
+## Jon Swan (Agent Larue)
 
 **[01:04:46 - 01:04:46]** Yes.
 
 **[01:04:46 - 01:04:49]** For an adventure path, that seems super likely.
+
+
+## Jon Swan (GM)
 
 **[01:04:49 - 01:04:53]** She takes a step back, counting in her head, looking again.
 
@@ -2955,7 +3017,7 @@
 **[01:05:23 - 01:05:28]** I would like all of you to give me a perception check.
 
 
-## Speaker_Kelly Gilliam8
+## Nicholas Belcher
 
 **[01:05:30 - 01:05:31]** Ho ho!
 
@@ -2984,11 +3046,6 @@
 **[01:05:44 - 01:05:44]** Is that okay?
 
 
-## Kelly Gilliam
-
-**[01:05:44 - 01:05:44]** Okay.
-
-
 ## Jon Swan (GM)
 
 **[01:05:45 - 01:05:49]** How dare you not let us hear the physical roll.
@@ -3003,16 +3060,22 @@
 
 **[01:05:57 - 01:05:57]** What'd you get?
 
+
+## Kelly Gilliam
+
 **[01:05:59 - 01:06:03]** I am going to be doing that.
+
+
+## Jon Swan (GM)
 
 **[01:06:04 - 01:06:05]** Okay.
 
 **[01:06:05 - 01:06:07]** We're going to move on.
 
 
-## Speaker_Kelly Gilliam2
+## Jon Swan
 
-**[01:06:07 - 01:06:07]** What did you get?
+**[01:06:07 - 01:06:07]** Will, What did you get?
 
 
 ## Kelly Gilliam
@@ -3034,31 +3097,41 @@
 
 **[01:06:16 - 01:06:17]** 19, okay.
 
-**[01:06:18 - 01:06:21]** Nick slash Nico, what'd you get?
+**[01:06:18 - 01:06:21]** Nick slash Niko, what'd you get?
+
+
+## Nicholas Belcher
 
 **[01:06:22 - 01:06:23]** I got a 13.
 
-**[01:06:23 - 01:06:24]** 13.
 
+## Jon Swan
 
-## Speaker_SPEAKER_12
-
-**[01:06:24 - 01:06:25]** Respect.
+**[01:06:24 - 01:06:25]** 13. Respectable
 
 **[01:06:26 - 01:06:29]** What about you, old Ricky?
 
-**[01:06:29 - 01:06:35]** So Rick's got a plus 4 for perception, so I'm a 5.
 
-**[01:06:36 - 01:06:37]** A 5.
+## Kevin Decker
+
+**[01:06:29 - 01:06:35]** So Rick's got a plus 4 for perception, so I'm a 5.
 
 
 ## Jon Swan (GM)
+
+**[01:06:36 - 01:06:37]** A 5...
 
 **[01:06:37 - 01:06:40]** So let me just back-calculate this for you real quick.
 
 **[01:06:40 - 01:06:41]** So you got a 1.
 
+
+## Kevin Decker
+
 **[01:06:42 - 01:06:42]** Yeah, I rolled a 1.
+
+
+## Jon Swan (GM)
 
 **[01:06:42 - 01:06:44]** All right, cool.
 
@@ -3076,12 +3149,9 @@
 **[01:06:56 - 01:06:57]** I got a one.
 
 
-## Speaker_Kelly Gilliam8
+## Jon Swan (GM)
 
 **[01:06:57 - 01:06:59]** Oh!
-
-
-## Speaker_Kelly Gilliam7
 
 **[01:07:00 - 01:07:01]** You guys are fucking off strong.
 
@@ -3090,7 +3160,7 @@
 **[01:07:03 - 01:07:04]** Is this docking bay 18?
 
 
-## Speaker_SPEAKER_15
+## Kelly Gilliam
 
 **[01:07:05 - 01:07:06]** Yeah.
 
@@ -3108,13 +3178,13 @@
 
 **[01:07:16 - 01:07:18]** I don't know.
 
-**[01:07:18 - 01:07:30]** So, as Special Agent LaRue is talking to this older man, you all, I would say, Nico and Dr. Ocontis,
+**[01:07:18 - 01:07:30]** So, as Special Agent LaRue is talking to this older man, you all, I would say, Nico and Dr. Okkatas
 
 **[01:07:31 - 01:07:38]** You hear off to the right, up towards the entrance of the ship.
 
 **[01:07:38 - 01:07:41]** You kind of turn and look as you're waiting.
 
-**[01:07:41 - 01:07:53]** You see Algiada E. Young, the chief security officer of the Chimera, speaking with the Vesk that was dismissed in the beginning.
+**[01:07:41 - 01:07:53]** You see Algiada Ijonne, the chief security officer of the Chimera, speaking with the Vesk that was dismissed in the beginning.
 
 **[01:07:53 - 01:07:54]** It's very genial.
 
@@ -3128,10 +3198,10 @@
 
 **[01:08:02 - 01:08:05]** And then the Vesk walks in.
 
-**[01:08:05 - 01:08:19]** The Kasathan, next to Rick, turns over and actually turns towards Dr. Okatis and Nico and hears, Have you all seen anything like this?
+**[01:08:05 - 01:08:19]** The Kasathan, next to Rick, turns over and actually turns towards Dr. Okkatus and Nico and hears, Have you all seen anything like this?
 
 
-## Speaker_Kelly Gilliam3
+## Jon Swan (Kasathan)
 
 **[01:08:19 - 01:08:23]** I asked Rick, I believe Rick 19.
 
@@ -3146,12 +3216,12 @@
 **[01:08:34 - 01:08:36]** Have any of you seen anything like this before?
 
 
-## Will Garrett
+## Will Garrett (Dr. OK)
 
 **[01:08:36 - 01:08:38]** What exactly am I looking at?
 
 
-## Speaker_Kelly Gilliam3
+## Jon Swan (Kasathan)
 
 **[01:08:38 - 01:08:41]** No, just the situation.
 
@@ -3164,24 +3234,24 @@
 **[01:08:54 - 01:08:55]** Be impositioned.
 
 
-## Kelly Gilliam
+## Kelly Gilliam (Heerz)
 
 **[01:08:55 - 01:08:56]** I totally agree.
 
 
-## Jon Swan (GM)
+## Jon Swan (Kasathan)
 
 **[01:08:56 - 01:09:07]** I just have to ask, have you been in the situation before where you've had to wait and be inconvenienced by someone like this?
 
 
-## Will Garrett
+## Will Garrett (Dr. OK)
 
 **[01:09:08 - 01:09:13]** As an Asharu, we often are...
 
 **[01:09:13 - 01:09:16]** patient with the world.
 
 
-## Speaker_Kelly Gilliam3
+## Jon Swan (Kasathan)
 
 **[01:09:16 - 01:09:18]** Well, that is a good trait to have.
 
@@ -3197,15 +3267,24 @@
 
 **[01:09:30 - 01:09:32]** That's it.
 
+
+## Will Garrett (Dr. OK)
+
 **[01:09:32 - 01:09:33]** Would you like something to relax?
+
+
+## Jon Swan (Kasathan)
 
 **[01:09:33 - 01:09:38]** I'm sure it's alright.
 
 **[01:09:38 - 01:09:41]** I'm sure on the ship it'll be alright.
 
+
+## Will Garrett (Dr. OK)
+
 **[01:09:42 - 01:09:43]** No problem.
 
-**[01:09:43 - 01:09:43]** Is that what I'd offer?
+**[01:09:43 - 01:09:43]** I thought I'd offer?
 
 
 ## Jon Swan (Agent Larue)
@@ -3221,7 +3300,7 @@
 
 **[01:09:50 - 01:09:52]** She points at the four of you.
 
-**[01:09:54 - 01:09:59]** Rick hears Dr. O'Kay, Nico, and the older man.
+**[01:09:54 - 01:09:59]** Rick hears Dr. OK, Nico, and the older man.
 
 
 ## Jon Swan (Agent Larue)
@@ -3236,26 +3315,28 @@
 
 ## Jon Swan (Agent Larue)
 
-**[01:10:06 - 01:10:11]** I've spoken with the security chief up here, Eon.
+**[01:10:06 - 01:10:11]** I've spoken with the security chief up here, Iom.
 
 **[01:10:11 - 01:10:12]** That's I-O-M.
-
-
-## Speaker_Kelly Gilliam3
 
 **[01:10:13 - 01:10:16]** And I'd like to ask you a few questions.
 
 **[01:10:17 - 01:10:19]** Perhaps we could take a walk?
-
-
-## Jon Swan (Agent Larue)
 
 **[01:10:21 - 01:10:31]** The stewards are willing to recommend you rebook your trip back to Absalom Station for a later date.
 
 
 ## Jon Swan (GM)
 
-**[01:10:32 - 01:10:49]** As Agent LaRue and the Kasathan are starting to talk, at that moment, to your right, the doors to the Chimera slide open, and we hear, Would someone here care to tell me what's holding up my passengers?
+**[01:10:32 - 01:10:43]** As Agent LaRue and the Kasathan are starting to talk, at that moment, to your right, the doors to the Chimera slide open, and we hear, 
+
+
+## Jon Swan (Captain)
+
+**[01:10:32 - 01:10:43]** Would someone here care to tell me what's holding up my passengers?
+
+
+## Jon Swan (GM)
 
 **[01:10:50 - 01:10:54]** Followed by a grunt.
 
@@ -3293,7 +3374,7 @@
 
 **[01:12:44 - 01:12:45]** Go check it out.
 
-**[01:12:45 - 01:12:52]** This is all through our paid support from you through coffee, ko-fi.com slash willsavethepodcast.
+**[01:12:45 - 01:12:52]** This is all through our paid support from you through kofi, ko-fi.com/willsavethepodcast
 
 **[01:12:52 - 01:12:55]** If you have the means, we greatly appreciate your support.
 
@@ -3320,9 +3401,6 @@
 **[01:13:19 - 01:13:20]** Truly.
 
 **[01:13:20 - 01:13:24]** Keep listening and we'll see you one click away in episode two.
-
-
-## Kelly Gilliam
 
 **[01:13:32 - 01:13:35]** Thank you.
 
