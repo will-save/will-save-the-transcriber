@@ -5,7 +5,7 @@
 ---
 
 
-## Speaker_SPEAKER_03
+## Nicholas Belcher
 
 **[00:00:00 - 00:00:04]** Last time on Will Save.
 
@@ -30,7 +30,7 @@
 **[00:00:46 - 00:00:49]** Find out this time on Willsave.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:01:34 - 00:01:44]** Hello, hello, hello, and welcome to the second episode of Will Save the Podcast.
 
@@ -177,7 +177,7 @@
 **[00:07:38 - 00:07:39]** Yay!
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:07:40 - 00:07:41]** Oh, thank you.
 
@@ -208,24 +208,24 @@
 **[00:08:04 - 00:08:07]** I'm a recent father as in like two weeks ago, three, almost three weeks.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:08:08 - 00:08:08]** Yeah.
 
 **[00:08:09 - 00:08:11]** Like the day after we recorded our first episode.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:08:12 - 00:08:13]** Yeah.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:08:13 - 00:08:14]** Two days, three days.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:08:14 - 00:08:20]** Well, yeah, it was, we recorded what Saturday and then, and then Monday he showed up.
 
@@ -234,43 +234,43 @@
 **[00:08:22 - 00:08:25]** If anybody's curious, he's a beautiful little baby boy.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:08:25 - 00:08:26]** No webbed feet, though.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:08:27 - 00:08:28]** Yeah, unfortunately.
 
 **[00:08:28 - 00:08:31]** No webbed feet, yeah, so no plus one to swimming.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:08:31 - 00:08:33]** No plus one to swim abilities.
 
 **[00:08:34 - 00:08:36]** No plus one to swim abilities.
 
 
-## Speaker_SPEAKER_03
+## Nicholas Belcher
 
 **[00:08:38 - 00:08:40]** It's all right, he's got... Permanent flat foot.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:08:40 - 00:08:46]** He's got some sort of intelligence bonus and charisma, I'm sure, thanks to Kevin's dash and good looks.
 
 **[00:08:46 - 00:09:10]** uh all right oh oh was there anything else you wanted to share trying to say uh was that genetic yeah yeah that's yeah that's part of the yeah it's part of the genetics all right was there anything else you wanted to share about yourself kiff i don't know you're gonna ask me like fun fact or something is that uh sure let's let's play uh yeah fun fact man do i actually i was just kidding when i said that i wasn't prepared for this
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:09:11 - 00:09:12]** You volunteer.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:09:12 - 00:09:14]** You volunteer, fun fact.
 
@@ -279,12 +279,12 @@
 **[00:09:14 - 00:09:15]** Let's move on.
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[00:09:16 - 00:09:17]** No, no fun facts.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:09:17 - 00:09:18]** No fun facts.
 
@@ -303,12 +303,12 @@
 **[00:09:27 - 00:09:28]** There are no fun facts.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:09:28 - 00:09:29]** There are zero fun facts.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:09:29 - 00:09:32]** Next up, Mr. William Garrett.
 
@@ -321,7 +321,7 @@
 **[00:09:39 - 00:09:40]** Hello.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:09:40 - 00:09:41]** I am Will.
 
@@ -330,12 +330,12 @@
 **[00:09:44 - 00:09:44]** No relation.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:09:44 - 00:09:46]** Totally, total coincidence.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:09:47 - 00:09:47]** Yeah.
 
@@ -348,12 +348,12 @@
 **[00:09:51 - 00:09:52]** And it's not me.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:09:54 - 00:09:56]** Easily confused, though, for sure.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:09:56 - 00:09:57]** Easily confused.
 
@@ -380,31 +380,31 @@
 **[00:10:38 - 00:10:45]** beer fridge is overflowing due to COVID and it's become a problem.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:10:46 - 00:10:47]** Yes.
 
 **[00:10:47 - 00:10:51]** It is important to note that we are recording this remotely due to COVID.
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[00:10:52 - 00:10:54]** Cause we're going to help Will out with that.
 
 **[00:10:54 - 00:10:54]** Yeah.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:10:54 - 00:10:56]** Cause that beer would not be an issue.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:10:56 - 00:10:58]** I either, or I need to become a serious alcohol.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:10:58 - 00:11:00]** No alcoholism.
 
@@ -413,12 +413,12 @@
 **[00:11:02 - 00:11:06]** Either the podcast becomes a lot more interesting or we stop recording.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:11:06 - 00:11:08]** Not to alienate any friends of Bill.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:11:11 - 00:11:12]** All right.
 
@@ -427,7 +427,7 @@
 **[00:11:18 - 00:11:20]** How we doing, Nick?
 
 
-## Speaker_SPEAKER_03
+## Nicholas Belcher
 
 **[00:11:20 - 00:11:21]** Yeah, Nick.
 
@@ -440,12 +440,12 @@
 **[00:11:31 - 00:11:32]** That's really hard.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:11:34 - 00:11:36]** It is for some.
 
 
-## Speaker_SPEAKER_03
+## Nicholas Belcher
 
 **[00:11:36 - 00:11:36]** I'm Nick Belcher.
 
@@ -458,7 +458,7 @@
 **[00:11:49 - 00:11:51]** Fun fact about me, I used to be a musician.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:11:52 - 00:11:54]** You still are a musician.
 
@@ -475,14 +475,14 @@
 **[00:12:04 - 00:12:07]** Once you're out, you're always still part of the Navy.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:12:07 - 00:12:08]** Are you still a sailor, Kev?
 
 **[00:12:09 - 00:12:11]** I will always be a submariner.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:12:11 - 00:12:13]** Yeah.
 
@@ -493,34 +493,34 @@
 **[00:12:15 - 00:12:17]** You'll always be a submarine.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:12:17 - 00:12:18]** Submarine.
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[00:12:18 - 00:12:21]** Is it that horrible an experience where you bond over it?
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:12:21 - 00:12:22]** I'm a newborn submarine.
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[00:12:23 - 00:12:25]** Kev's a newborn submarine.
 
 **[00:12:25 - 00:12:27]** He's a baby submarine.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:12:28 - 00:12:51]** fun fact oh there is a fun fact you're a newborn submarine this is good all right all right this is good well last up technically not last because kev snuck into the last place on my window pane but last um and possibly least just kidding is kelly gilliam round of applause for kelly hello
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[00:12:52 - 00:12:55]** K-E-L-L-Y.
 
@@ -537,63 +537,63 @@
 **[00:13:16 - 00:13:19]** Initially, and then everybody realized that they're great.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:13:19 - 00:13:20]** No, we love them.
 
 **[00:13:20 - 00:13:22]** We've always loved your headphones.
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[00:13:22 - 00:13:23]** Okay, good.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:13:23 - 00:13:24]** Let the record show.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:13:24 - 00:13:28]** I thought my eyes deceived me for it was so wondrous.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:13:29 - 00:13:31]** I'm glad you found your ear back.
 
 **[00:13:31 - 00:13:32]** You lost an ear for a while.
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[00:13:32 - 00:13:33]** I finally found one.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:13:34 - 00:13:34]** The ear got clipped.
 
 **[00:13:35 - 00:13:36]** You got tagged.
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[00:13:37 - 00:13:39]** It's like a fake one, but it looks pretty good, right?
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:13:40 - 00:13:41]** Because they're stray cat headphones.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:13:42 - 00:13:43]** Yeah, because you're a stray cat, Kelly.
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[00:13:45 - 00:13:46]** Yeah, exactly.
 
@@ -602,19 +602,19 @@
 **[00:13:48 - 00:13:50]** These guys adopted me.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:13:50 - 00:13:54]** All right, well, we got a stray cat, a newborn submarine, somebody looking for work, and Will.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:13:54 - 00:13:56]** So it sounds like we're all set.
 
 **[00:13:56 - 00:14:00]** I want to redo my fun fact that I could be an extra in Duck Dynasty.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:14:01 - 00:14:01]** You could.
 
@@ -633,17 +633,17 @@
 **[00:14:19 - 00:14:20]** And a cat or a cap?
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:14:21 - 00:14:22]** Oh, a cap.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:14:22 - 00:14:23]** Yeah, a cap.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:14:23 - 00:14:23]** That's it.
 
@@ -654,35 +654,35 @@
 **[00:14:27 - 00:14:28]** I don't want to wake him.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:14:28 - 00:14:32]** Well, Ninja is one of the podcast cats, so it's good.
 
 **[00:14:32 - 00:14:33]** It's all good.
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[00:14:33 - 00:14:36]** And so that people know, Ninja is kind of a famous cat.
 
 **[00:14:37 - 00:14:40]** He's got his own... He's on Instagram.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:14:41 - 00:14:43]** Yeah, throw his handle out there.
 
 **[00:14:43 - 00:14:45]** He's very familiar with that cat.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:14:45 - 00:14:50]** GingerNinji with a Y on the end is the handle.
 
 **[00:14:51 - 00:15:18]** beautiful you can see him do dice tower rolls yep on our on our instagram yeah yeah yeah he he is a cool cat i will and i'm not i'm not even a fan of cats really but ninja i'm a fan yeah me neither but like somehow he stole my heart says the guy with the cat yeah i don't like cats i don't like cats but for my headphones it's fine it's a long story yeah oh yeah totally
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:15:20 - 00:15:24]** Speaking of cats, John Swan has two cats.
 
@@ -691,14 +691,14 @@
 **[00:15:25 - 00:15:27]** Yeah, I do have two cats.
 
 
-## Speaker_SPEAKER_03
+## Nicholas Belcher
 
 **[00:15:27 - 00:15:28]** We don't talk about one of them.
 
 **[00:15:28 - 00:15:28]** I don't know.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:15:29 - 00:15:33]** Okay, so one of them is Penelope, and she's an angel.
 
@@ -713,26 +713,26 @@
 **[00:15:41 - 00:15:41]** I didn't even need to finish it.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:15:42 - 00:15:43]** I didn't even need to finish it.
 
 **[00:15:43 - 00:15:46]** He is an asshole because he has a mustache.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:15:47 - 00:15:55]** So, to test this theory, I currently have a beard, but I should shave and get a mustache and see if I'm a meaner GM.
 
 **[00:15:56 - 00:15:57]** That's how that works, right?
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:15:57 - 00:16:00]** I don't think we need to do that.
 
 
-## Speaker_SPEAKER_03
+## Nicholas Belcher
 
 **[00:16:02 - 00:16:05]** I prefer you with a full beard.
 
@@ -741,26 +741,26 @@
 **[00:16:08 - 00:16:15]** Like, John, if you shaved your beard but not your mustache, I would have to flag you at every single Chuck E. Cheese you walked into.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:16:15 - 00:16:16]** Is Chuck E. Cheese still a thing?
 
 **[00:16:16 - 00:16:17]** I feel like COVID wiped them out.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:16:17 - 00:16:20]** Yeah, I feel like they're wiped out along with their carpet pizza.
 
 
-## Speaker_SPEAKER_03
+## Nicholas Belcher
 
 **[00:16:21 - 00:16:24]** Which is funny because they should have been wiped out long before.
 
 **[00:16:24 - 00:16:28]** No, didn't you hear they tried to pass themselves off as like a fake pizza joint and they got caught?
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[00:16:29 - 00:16:30]** What?
 
@@ -771,27 +771,27 @@
 **[00:16:33 - 00:16:35]** This is the news section of our podcast.
 
 
-## Speaker_SPEAKER_03
+## Nicholas Belcher
 
 **[00:16:36 - 00:16:45]** No, I thought they got slammed for false advertisement because they were trying to sell their Chuck E. Cheese pizzas under a different name or something like that.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:16:45 - 00:16:46]** Interesting.
 
 
-## Speaker_SPEAKER_03
+## Nicholas Belcher
 
 **[00:16:46 - 00:16:50]** You guys can fact check me on that, but I'm pretty sure that happened.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:16:50 - 00:16:53]** You're just going to get hate mail from everybody who loves Chuck E. Cheese.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:16:55 - 00:16:57]** Can I tell a story about Chuck E. Cheese?
 
@@ -808,12 +808,12 @@
 **[00:17:11 - 00:17:13]** The food is whatever.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:17:13 - 00:17:15]** Their pizza's fine.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:17:15 - 00:17:16]** Their pizza's fine.
 
@@ -828,7 +828,7 @@
 **[00:17:40 - 00:17:57]** swoop in when you're about to like all those chance games you just totally clean up that sounds like fatherly advice I'm looking forward to taking him to Chuck E. Cheese did you go in like the play pins and stuff
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[00:17:58 - 00:17:58]** With him?
 
@@ -837,7 +837,7 @@
 **[00:18:00 - 00:18:01]** Oh, no, I mean, Will.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:18:01 - 00:18:05]** What did I do?
 
@@ -852,7 +852,7 @@
 **[00:18:24 - 00:18:25]** I got a story about Chuck E. Cheese.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:18:26 - 00:18:28]** It's less of a story, just more of a, I don't know, thing.
 
@@ -871,34 +871,34 @@
 **[00:18:50 - 00:18:51]** It's good.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:18:51 - 00:18:53]** That is your second fun fact.
 
 **[00:18:53 - 00:18:54]** You realize that, Kev?
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:18:55 - 00:18:57]** My first fun fact wasn't really a fact.
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[00:18:57 - 00:18:59]** That you're a baby submarine, that is a fact.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:19:01 - 00:19:02]** Yeah, that you're a baby submarine.
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[00:19:02 - 00:19:05]** No one can see you when they're listening to you, but we can see you.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:19:05 - 00:19:08]** Yeah, so you could be a baby submarine and no one would know.
 
@@ -911,52 +911,52 @@
 **[00:19:18 - 00:19:19]** I know.
 
 
-## Speaker_SPEAKER_05
+## Will Garrett
 
 **[00:19:20 - 00:19:23]** Go in DZ at Discovery Zone.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:19:23 - 00:19:27]** Oh, I'm going to cut out the audio right when you sing that, so it's just your voice.
 
 **[00:19:27 - 00:19:28]** That was awesome.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:19:28 - 00:19:30]** Wasn't there another one, like G3 or something?
 
 **[00:19:30 - 00:19:36]** There was Discovery Zone and Chuck E. Cheese, and then there was like a G3 or some other...
 
 
-## Speaker_SPEAKER_03
+## Nicholas Belcher
 
 **[00:19:36 - 00:19:39]** It was, it was three, right?
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:19:39 - 00:19:39]** I don't remember.
 
 **[00:19:40 - 00:19:46]** It was like DZ, but it was like a, a off brand of it that had, you know, games and toys and ball pits and stuff.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:19:47 - 00:19:47]** Hmm.
 
 **[00:19:47 - 00:19:49]** Do you guys know about giggles and hugs?
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:19:50 - 00:19:51]** What's that?
 
 **[00:19:51 - 00:19:53]** This is a learning session.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:19:53 - 00:19:55]** It's like, do I want to tell my kids to that?
 
@@ -965,7 +965,7 @@
 **[00:20:02 - 00:20:03]** What?
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:20:03 - 00:20:03]** Whole Foods?
 
@@ -978,31 +978,31 @@
 **[00:20:07 - 00:20:09]** It's all hypoallergenic material.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:20:09 - 00:20:11]** Yeah, yeah, yeah.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:20:12 - 00:20:13]** Chuck E. Cheese for hipsters?
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:20:13 - 00:20:15]** Like, all the toys are just, like, wood blocks.
 
 **[00:20:16 - 00:20:20]** That would be really, really sad.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:20:20 - 00:20:20]** Montessori.
 
 **[00:20:21 - 00:20:21]** Yeah, exactly.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:20:21 - 00:20:23]** Google giggles and hugs, man.
 
@@ -1011,7 +1011,7 @@
 **[00:20:25 - 00:20:26]** You Google beagles and hugs.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:20:26 - 00:20:27]** So back to Will Save.
 
@@ -1022,7 +1022,7 @@
 **[00:20:31 - 00:20:39]** I went to LinkedIn and searched for William Save, and there is one student that is a medical assistant school in Hawaii.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:20:39 - 00:20:40]** All right.
 
@@ -1035,7 +1035,7 @@
 **[00:20:47 - 00:20:48]** That's based on LinkedIn.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:20:48 - 00:20:52]** And then there's a Billsave who's the owner of WetSharp.
 
@@ -1050,50 +1050,50 @@
 **[00:21:01 - 00:21:04]** Billsave sounds like a sharpening company.
 
 
-## Speaker_SPEAKER_05
+## Will Garrett
 
 **[00:21:04 - 00:21:04]** Yeah.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:21:07 - 00:21:10]** He's in Melbourne, Australia, so maybe Sharp is what Australians call knives.
 
 **[00:21:12 - 00:21:14]** Is that what they call knives?
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[00:21:15 - 00:21:16]** Silly Australians.
 
 
-## Speaker_SPEAKER_03
+## Nicholas Belcher
 
 **[00:21:16 - 00:21:18]** Silly, silly Australians.
 
 **[00:21:19 - 00:21:21]** Da-da-ding-a-wee-show-bye-may.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:21:23 - 00:21:25]** We lost all the Australians.
 
 
-## Speaker_SPEAKER_03
+## Nicholas Belcher
 
 **[00:21:25 - 00:21:27]** Are you... Yeah, we lost everybody.
 
 **[00:21:28 - 00:21:31]** Are you doing a... You're going to have to cut that.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:21:31 - 00:21:33]** Are you doing a Moira impression from Schitt's Creek?
 
 **[00:21:33 - 00:21:35]** Oh, what a great show.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:21:36 - 00:21:43]** I've heard something.
 
@@ -1104,7 +1104,7 @@
 **[00:21:52 - 00:21:52]** We could.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:21:52 - 00:21:53]** Is it good?
 
@@ -1113,7 +1113,7 @@
 **[00:21:54 - 00:21:55]** Is that why she got the Emmy?
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:21:56 - 00:22:02]** So just wanted to plug a little couple things here from Starfinder by Paizo.
 
@@ -1128,14 +1128,14 @@
 **[00:22:15 - 00:22:20]** Might get some audience participation from you guys here if you want.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:22:21 - 00:22:23]** We're going to use the raise hand feature on Zoom?
 
 **[00:22:23 - 00:22:24]** This, yes.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:22:24 - 00:22:26]** This is the beta development of raise hand.
 
@@ -1212,7 +1212,7 @@
 **[00:24:43 - 00:24:44]** What do they look like?
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[00:24:45 - 00:24:50]** Shirin are tall, lanky, bug-like creatures.
 
@@ -1231,7 +1231,7 @@
 **[00:25:20 - 00:25:21]** And, yeah.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:25:21 - 00:25:24]** Yeah, that's a great summary.
 
@@ -1266,7 +1266,7 @@
 **[00:26:07 - 00:26:10]** But let's talk about Osharus real quick, Will.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:26:11 - 00:26:18]** Uh, the Asharu are a slug people from the planet of Pabak.
 
@@ -1299,12 +1299,12 @@
 **[00:27:03 - 00:27:32]** prefer to keep their drones like you know patrolling using non-lethal means of tranquilizing dangerous creatures and depositing them in the wild uh outside of the cities casual totally casual you know like have you ever seen those documentaries where they like tranquilize polar bears yes in in like canada and alaska and then they like put them in polar bear jail and starve them that's what the the asharu do
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[00:27:32 - 00:27:35]** I remember very much that when you showed it to me.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:27:36 - 00:27:38]** Wow.
 
@@ -1315,12 +1315,12 @@
 **[00:27:43 - 00:27:44]** Let's talk about androids.
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[00:27:44 - 00:27:46]** I know how to feel about those.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:27:46 - 00:27:48]** Yeah, let's talk about androids here.
 
@@ -1329,7 +1329,7 @@
 **[00:27:50 - 00:27:53]** Will and Kelly used to work together at the same tech company.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:27:53 - 00:27:56]** Kelly got cat ears and Will was like, no more.
 
@@ -1344,7 +1344,7 @@
 **[00:28:01 - 00:28:06]** All right, Kev, do you want to draw some knowledge on androids?
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:28:08 - 00:28:09]** Oh, heck yeah.
 
@@ -1361,7 +1361,7 @@
 **[00:28:39 - 00:28:42]** Thank you, Starfinder Player Handbook.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:28:43 - 00:28:44]** Core rulebook.
 
@@ -1400,12 +1400,12 @@
 **[00:30:16 - 00:30:18]** So beautiful, so good, so tear-jerking.
 
 
-## Speaker_SPEAKER_03
+## Nicholas Belcher
 
 **[00:30:19 - 00:30:22]** And with that said… That's their new marketing campaign.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:30:22 - 00:30:23]** Hashtag marketing campaign.
 
@@ -1424,17 +1424,17 @@
 **[00:31:06 - 00:31:11]** And that's that for the first time on We'll Save, we're going to roll for initiative.
 
 
-## Speaker_0
+## Cast
 
 **[00:31:12 - 00:31:12]** Fuck.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:31:12 - 00:31:38]** let's do it no explanation nothing huh oh i got a 20. wow okay wow dang all right hold your horses here we're gonna we're gonna do this in good old-fashioned order here but that's beautiful that's beautiful all right let's see how we got will you said no explanation and i think you're talking about how dr okay must be feeling
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:31:39 - 00:31:42]** Standing there in Hangar 18.
 
@@ -1443,7 +1443,7 @@
 **[00:31:44 - 00:31:45]** I rolled a nine.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:31:45 - 00:31:47]** You rolled a nine.
 
@@ -1456,12 +1456,12 @@
 **[00:31:54 - 00:31:55]** What'd you get?
 
 
-## Speaker_SPEAKER_03
+## Nicholas Belcher
 
 **[00:31:55 - 00:31:58]** That's a solid 17.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:31:58 - 00:32:00]** Oh, that is solid.
 
@@ -1484,7 +1484,7 @@
 **[00:32:11 - 00:32:15]** And what about you, Rick?
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:32:15 - 00:32:20]** I rolled a 4, but I have a plus 8, so that gives me a 12.
 
@@ -1492,32 +1492,36 @@
 
 **[00:32:21 - 00:32:22]** A plus 8 initiative?
 
+## Kelly Gilliam
+
 **[00:32:23 - 00:32:24]** Wait, what?
+
+## Kevin Decker
 
 **[00:32:24 - 00:32:28]** Yeah, I don't know what I did.
 
 
-## Speaker_SPEAKER_05
+## Jon Swan
 
 **[00:32:28 - 00:32:31]** How is that possible?
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:32:31 - 00:32:33]** Does it break it down for me?
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:32:33 - 00:32:36]** Yeah, if you click on the number, it should break it down.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:32:36 - 00:32:43]** I got a plus four from dexterity and a plus four for one of my bonuses, which is improved initiative.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:32:43 - 00:32:44]** Holy!
 
@@ -1532,7 +1536,7 @@
 **[00:32:49 - 00:32:50]** I'm not a killer!
 
 
-## Speaker_SPEAKER_03
+## Nicholas Belcher
 
 **[00:32:50 - 00:32:51]** Murder, murder, murder, murder.
 
@@ -1543,7 +1547,7 @@
 **[00:32:54 - 00:32:56]** Murder, murder, murder, murder.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:32:57 - 00:32:57]** All right.
 
@@ -1560,14 +1564,14 @@
 **[00:33:19 - 00:33:23]** It just allows us to say, in the order of combat, who goes first.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:33:23 - 00:33:24]** Who's quickest to the draw.
 
 **[00:33:25 - 00:33:30]** It is a random dice roll to see how quick your reflexes are.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:33:30 - 00:33:34]** Thank you to all the dice makers out there for the great work that you do.
 
@@ -1584,14 +1588,14 @@
 **[00:33:45 - 00:33:49]** What is your dexterity bonus?
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[00:33:49 - 00:33:53]** Here's does not have one of those dexterity bonuses.
 
 **[00:33:53 - 00:33:53]** Oh, all right.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:33:54 - 00:33:54]** Plus zero.
 
@@ -1625,7 +1629,7 @@
 **[00:34:12 - 00:34:12]** Yeah.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:34:13 - 00:34:24]** And having pushed Special Agent LaRue over, she's going to take a step towards Special Agent LaRue and take the two knives that are in two of her hands.
 
@@ -1644,12 +1648,12 @@
 **[00:34:46 - 00:34:49]** Man, that is great.
 
 
-## Speaker_SPEAKER_03
+## Nicholas Belcher
 
 **[00:34:49 - 00:34:52]** Do you have a plus eight modifier to your attack roll there too?
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:34:53 - 00:34:56]** I cannot confirm nor deny any of that question.
 
@@ -1668,21 +1672,21 @@
 **[00:35:08 - 00:35:10]** Critical hits mess you up.
 
 
-## Speaker_SPEAKER_03
+## Nicholas Belcher
 
 **[00:35:10 - 00:35:27]** You can either draw a card – we either draw a card that gives us a specific effect or somewhat of a debilitation or it's kind of dealers – it's kind of the person who rolled the critical roll there.
 
 **[00:35:28 - 00:35:32]** They either get to choose for either the card or the high damage.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:35:32 - 00:35:35]** Also, certain weapons have critical effects.
 
 **[00:35:36 - 00:35:41]** They can be special properties that are imparted when a critical role is achieved.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:35:41 - 00:35:45]** I think for this, we're going to do double damage.
 
@@ -1693,24 +1697,24 @@
 **[00:35:49 - 00:35:50]** Double damage!
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:35:51 - 00:35:54]** John, does it frighten you that you're about to kill your own character?
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:35:55 - 00:35:58]** Yeah, it's one of those things where you're kind of playing against yourself.
 
 **[00:35:58 - 00:36:00]** You're like playing chess against yourself.
 
 
-## Speaker_SPEAKER_03
+## Nicholas Belcher
 
 **[00:36:00 - 00:36:02]** Does an NPC like yourself ever experience fear?
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:36:04 - 00:36:07]** So I'm rolling twice and then adding the bonuses here.
 
@@ -1739,7 +1743,7 @@
 **[00:36:36 - 00:36:37]** What are you doing?
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[00:36:37 - 00:36:39]** Hears is like, I don't have time for this.
 
@@ -1753,7 +1757,7 @@
 **[00:36:48 - 00:36:48]** Wow.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:36:49 - 00:36:51]** Just going right for it.
 
@@ -1762,19 +1766,19 @@
 **[00:36:52 - 00:36:54]** You're casting magic missile.
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[00:36:55 - 00:36:56]** What happens with magic missile?
 
 **[00:36:56 - 00:37:04]** So with magic missile, you fire two missiles of magical energy that always strike their target.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:37:04 - 00:37:05]** Always without fail.
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[00:37:06 - 00:37:06]** Without fail.
 
@@ -1783,39 +1787,39 @@
 **[00:37:11 - 00:37:16]** And it deals, like, 1d4 plus 1 force damage for each missile.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:37:17 - 00:37:18]** So you're rolling a d4.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:37:18 - 00:37:19]** Are you doing it as a full action?
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[00:37:19 - 00:37:20]** In this case, I have two missiles.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:37:21 - 00:37:22]** Okay.
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[00:37:22 - 00:37:23]** Yeah.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:37:23 - 00:37:26]** If you do a full round action, you get an extra missile attack.
 
 **[00:37:27 - 00:37:29]** So you get three missiles instead of two.
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[00:37:30 - 00:37:32]** I did not see that, but I will.
 
@@ -1836,7 +1840,7 @@
 **[00:37:41 - 00:37:44]** And that comes out to eight in total.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:37:45 - 00:37:46]** Eight damage.
 
@@ -1871,7 +1875,7 @@
 **[00:38:25 - 00:38:54]** blaster he takes a shot where's my d20 here aims you all are standing there you feel like a shot go over your head and my next roll was a critical failure as you hear him start to curse and it sounds like he's pulling the trigger and it's clicking whatever gun he's using is clicking if you look over he's trying to look in at it it is nico orion's turn what are you doing
 
 
-## Speaker_SPEAKER_03
+## Nicholas Belcher
 
 **[00:38:54 - 00:38:57]** Nico's kind of looking at all this, and he doesn't have a dog in this fight.
 
@@ -1886,7 +1890,7 @@
 **[00:39:11 - 00:39:16]** Just mild amusement that there's just more ruckus going on in the background.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:39:16 - 00:39:17]** Okay.
 
@@ -1913,7 +1917,7 @@
 **[00:39:36 - 00:39:42]** She shouts and screams and then she turns to all of you and says, Don't kill him!
 
 
-## Speaker_SPEAKER_03
+## Nicholas Belcher
 
 **[00:39:42 - 00:39:43]** Don't kill him!
 
@@ -1922,7 +1926,7 @@
 **[00:39:44 - 00:39:45]** Don't kill him!
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:39:45 - 00:39:54]** And at that same time, she tries to reach out and grabs for a baton that's strapped to her hip.
 
@@ -1949,21 +1953,21 @@
 **[00:40:39 - 00:40:40]** Rick, what are you doing?
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:40:41 - 00:40:47]** Rick with his lightning fast speed, he pulls a gun out from his waistband.
 
 **[00:40:47 - 00:40:55]** And just as a note, he has a plus one for his base attack, so he can draw a weapon and move at the same time.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:40:55 - 00:40:57]** Thank you for that point of clarity.
 
 **[00:40:57 - 00:40:57]** That was good.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:40:58 - 00:41:00]** But Rick is going to move to here.
 
@@ -2002,7 +2006,7 @@
 **[00:41:54 - 00:41:57]** I have a plus five to attack.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:41:57 - 00:41:58]** And what is your roll?
 
@@ -2017,7 +2021,7 @@
 **[00:42:04 - 00:42:05]** What happens with that?
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:42:06 - 00:42:18]** So, yeah, Rick draws his gun out and kind of strafes along that path, and he pulls the trigger to try to distract this creature.
 
@@ -2026,7 +2030,7 @@
 **[00:42:25 - 00:42:29]** So he's just trying to distract them, but he just doesn't get their attention whatsoever.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:42:29 - 00:42:31]** Yeah, she doesn't seem to notice.
 
@@ -2041,7 +2045,7 @@
 **[00:42:38 - 00:42:39]** O.K., what are you doing?
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:42:40 - 00:42:42]** Um, Dr. O.K.
 
@@ -2072,14 +2076,14 @@
 **[00:43:17 - 00:43:23]** I'm trying to look up the mechanics, though, on injecting a target with a drug.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:43:24 - 00:43:24]** Okay.
 
 **[00:43:25 - 00:43:28]** I think if you hit on the attack roll, then that's what counts.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:43:29 - 00:43:32]** Okay, so it's basically like the attack roll?
 
@@ -2088,7 +2092,7 @@
 **[00:43:33 - 00:43:37]** I'm sure the comment section on this will be like, no, you're doing it all wrong.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:43:37 - 00:43:46]** So yeah, I'm trying to open the care dropper operations manual, but as soon as you make the attack, we're going to consider it like, you know, you're taking your hand off the chest piece.
 
@@ -2107,7 +2111,7 @@
 **[00:43:56 - 00:43:58]** Because you pretty much hit wherever you wanted to aim.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:43:59 - 00:44:02]** I'm going to aim for this gentleman's neck.
 
@@ -2132,24 +2136,24 @@
 **[00:44:34 - 00:44:37]** This is a mind-affecting poison effect.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:44:38 - 00:44:40]** This is a mind-affecting poison effect.
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[00:44:40 - 00:44:47]** That's... Okay, so if they fail that, they can't take actions at all.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:44:49 - 00:45:19]** whatever the so if they they gain the encumbered condition which I think is just it's not fun and then entangled is when they can't move yeah exactly so encumbered would just mean it's like slow movement or something yeah basically all of your speeds are reduced by 10 your maximum dex bonus to your AC is reduced to plus 2 and you take a negative 5 penalty to strength and dex base checks
 
 **[00:45:19 - 00:45:46]** nice nice wow that is intense and then uh yeah uh entangled is no bueno whatsoever so you're saying that she gets hit in the neck doesn't seem to face her first she doesn't even notice it yeah and then she gets two points of damage okay two points of damage then gains the encumbered condition and must succeed at a fort save to not get the entangled condition correct
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:45:46 - 00:45:48]** Ah, I see.
 
@@ -2160,12 +2164,12 @@
 **[00:45:51 - 00:45:52]** Quick question.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:45:52 - 00:45:56]** I prefer non-lethal attacks.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:45:56 - 00:45:57]** I prefer them in general.
 
@@ -2242,12 +2246,12 @@
 **[00:47:27 - 00:47:34]** She was almost hit by Rick in the sense of a distracting shot, but didn't seem to faze her.
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[00:47:35 - 00:47:36]** Here's hit her as well, just saying.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:47:36 - 00:47:39]** Oh, yes, and Hears hit her with Magic Missile.
 
@@ -2272,14 +2276,14 @@
 **[00:48:23 - 00:48:25]** I don't think that hits, does it?
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[00:48:25 - 00:48:27]** Does that break your KAC?
 
 **[00:48:27 - 00:48:33]** My KAC is 10, so... Oh, no, it's 18, actually.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:48:35 - 00:48:38]** I thought it was really low, but instead it's really high.
 
@@ -2306,7 +2310,7 @@
 **[00:48:56 - 00:49:00]** It is your turn next.
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[00:49:00 - 00:49:22]** so here's it's just gonna look like um right at her and be like it's time for you to cut it out and then cast days on her nice days days is a uh zero level skill this is a will save right dc 15 dc 15 will save
 
@@ -2317,7 +2321,7 @@
 **[00:49:25 - 00:49:26]** Will negates.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:49:26 - 00:49:27]** Will negates.
 
@@ -2348,14 +2352,14 @@
 **[00:50:04 - 00:50:04]** Wow.
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[00:50:05 - 00:50:05]** There you go.
 
 **[00:50:05 - 00:50:06]** Stay right there.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:50:08 - 00:50:09]** Just stay right where you are.
 
@@ -2376,7 +2380,7 @@
 **[00:50:43 - 00:50:44]** Nico, what are you doing?
 
 
-## Speaker_SPEAKER_03
+## Nicholas Belcher
 
 **[00:50:45 - 00:50:51]** So when the Kasathan came and swiped at Gears, he kind of...
 
@@ -2389,12 +2393,12 @@
 **[00:50:59 - 00:51:06]** So at this point, Niko now is just like, okay, he reaches for two azimuth laser pistols and shoots.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:51:06 - 00:51:07]** Shoots both of them?
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:51:08 - 00:51:09]** Shoots both of them.
 
@@ -2403,12 +2407,12 @@
 **[00:51:11 - 00:51:11]** Isn't that a full turn?
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:51:12 - 00:51:16]** Yeah, so if you didn't have them drawn before, what's your base attack bonus?
 
 
-## Speaker_SPEAKER_03
+## Nicholas Belcher
 
 **[00:51:18 - 00:51:21]** My base attack bonus?
 
@@ -2421,7 +2425,7 @@
 **[00:51:28 - 00:51:29]** But my ranged attack is plus two.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:51:30 - 00:51:31]** That's fine.
 
@@ -2434,12 +2438,12 @@
 **[00:51:46 - 00:51:49]** Drawing or sheathing a weapon is a move action.
 
 
-## Speaker_SPEAKER_03
+## Nicholas Belcher
 
 **[00:51:50 - 00:51:51]** I also have multi-weapon fighting.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:51:51 - 00:51:53]** That gives you – OK.
 
@@ -2456,12 +2460,12 @@
 **[00:52:14 - 00:52:17]** So think about that when you guys are doing it.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:52:17 - 00:52:17]** Sorry, say that again?
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:52:17 - 00:52:19]** We can do non-lethal with ranged?
 
@@ -2482,7 +2486,7 @@
 **[00:52:48 - 00:52:51]** She got pretty dazed, literally, from here.
 
 
-## Speaker_SPEAKER_03
+## Nicholas Belcher
 
 **[00:52:53 - 00:52:56]** All right, so Niko is at this point, he's done with it.
 
@@ -2493,19 +2497,19 @@
 **[00:53:05 - 00:53:08]** And he's going to hold an action to attack with one of them.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:53:09 - 00:53:14]** Okay, so holding an action might or might not... Oh, she moved here.
 
 
-## Speaker_SPEAKER_03
+## Nicholas Belcher
 
 **[00:53:14 - 00:53:19]** Holding an action... Would an intimidation actually do anything on this?
 
 **[00:53:19 - 00:53:20]** Is she so out of it?
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:53:21 - 00:53:26]** She already seems out of it, so when you say that, she doesn't seem to even register it.
 
@@ -2542,7 +2546,7 @@
 **[00:54:32 - 00:54:34]** And the target can't do anything.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:54:34 - 00:54:37]** Rick is going to take two steps over.
 
@@ -2565,7 +2569,7 @@
 **[00:54:53 - 00:54:53]** Woo!
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:54:54 - 00:54:54]** That's pretty good.
 
@@ -2594,17 +2598,17 @@
 **[00:55:35 - 00:55:38]** You don't see any alarms or anything else happening.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:55:38 - 00:55:40]** She seems like the only threat in the area.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:55:40 - 00:55:41]** Exactly.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:55:41 - 00:55:42]** Okay.
 
@@ -2619,7 +2623,7 @@
 **[00:56:00 - 00:56:00]** Nice.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:56:02 - 00:56:02]** Okay.
 
@@ -2629,7 +2633,7 @@
 **[00:56:02 - 00:56:02]** Okay.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:56:03 - 00:56:04]** It is Dr.
 
@@ -2650,7 +2654,7 @@
 **[00:56:15 - 00:56:15]** I am.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:56:16 - 00:56:17]** Are we allowed to say Dr. Pepper on air?
 
@@ -2669,29 +2673,29 @@
 **[00:56:28 - 00:56:30]** It tastes like liquid cotton candy.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:56:32 - 00:56:33]** I like your style.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:56:35 - 00:56:36]** I like the way you think.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:56:37 - 00:56:39]** All right, Doctor, okay, what are you doing?
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:56:40 - 00:56:43]** Um, so... Are you wrapping this up?
 
 **[00:56:43 - 00:56:46]** This guy up here, he's shooting at us?
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:56:47 - 00:56:47]** No.
 
@@ -2702,21 +2706,21 @@
 **[00:56:53 - 00:56:54]** The other Kasathan.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:56:54 - 00:56:54]** Yeah.
 
 **[00:56:54 - 00:56:55]** This guy.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[00:56:55 - 00:56:58]** He's just, like, shooting in the general direction because he hasn't hit a damn thing.
 
 **[00:56:58 - 00:56:59]** Yeah, because he hasn't done anything.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:57:00 - 00:57:01]** Just making sure I shouldn't hit him.
 
@@ -2725,24 +2729,24 @@
 **[00:57:12 - 00:57:12]** Sure.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:57:15 - 00:57:15]** Okay.
 
 **[00:57:15 - 00:57:18]** Actually, it probably, state, like, health-wise...
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:57:20 - 00:57:20]** Yes.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:57:20 - 00:57:24]** Yeah, I think that would probably be a medicine check.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:57:24 - 00:57:31]** Medicine check is slightly lower than my life science, unfortunately.
 
@@ -2751,7 +2755,7 @@
 **[00:57:34 - 00:57:34]** 22.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:57:35 - 00:57:46]** Yeah, I mean, you can tell... This could also probably be a perception check, but I'm going to say because of your skills and everything, that's fine.
 
@@ -2776,7 +2780,7 @@
 **[00:58:10 - 00:58:11]** Gotcha.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:58:11 - 00:58:12]** Okay.
 
@@ -2785,12 +2789,12 @@
 **[00:58:18 - 00:58:23]** It's an action to draw a different weapon, correct?
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:58:24 - 00:58:26]** Unless you have plus one and move at the same time.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:58:27 - 00:58:29]** Okay, no, I can't do that.
 
@@ -2799,17 +2803,17 @@
 **[00:58:44 - 00:58:47]** You're going to hit her with a minor inhibitor.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:58:48 - 00:58:48]** What does that do?
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:58:51 - 00:58:57]** Takes a minus one penalty to attack rolls for six rounds.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:58:58 - 00:59:25]** wow okay and is that the same where if you meet a certain uh if you meet no there's no dc or anything like it's just it's just if you beat her ac yeah if i if i hit okay against her kac right her kinetic ac yeah okay 16 16 to hit against her kinetic ac let's see did you beat it
 
@@ -2820,7 +2824,7 @@
 **[00:59:30 - 00:59:31]** Yeah.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:59:31 - 00:59:32]** So where do you hit?
 
@@ -2829,12 +2833,12 @@
 **[00:59:38 - 00:59:39]** Is she facing me?
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[00:59:39 - 00:59:47]** She seems to be facing here, because that's where she last was when she was first encumbered by you and then now dazed.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[00:59:47 - 01:00:00]** So I would say maybe one of her arms, in the mid-drift of her two arms on her right side, I'm just hitting her real quick with the minor inhibitor and I deal...
 
@@ -2845,7 +2849,7 @@
 **[01:00:03 - 01:00:04]** Four damage.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[01:00:04 - 01:00:05]** Max damage.
 
@@ -2885,7 +2889,7 @@
 **[01:01:02 - 01:01:02]** And...
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[01:01:02 - 01:01:07]** And almost blink her eyes, slowly trying to gain control.
 
@@ -2896,7 +2900,7 @@
 **[01:01:18 - 01:01:19]** It's Hears' turn.
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[01:01:19 - 01:01:21]** What do you want to do?
 
@@ -2919,7 +2923,7 @@
 **[01:01:53 - 01:01:55]** Hold the hands back.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[01:01:56 - 01:01:57]** Like push her hands back.
 
@@ -2936,7 +2940,7 @@
 **[01:02:15 - 01:02:16]** Does that make sense?
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[01:02:16 - 01:02:17]** Yeah.
 
@@ -2945,7 +2949,7 @@
 **[01:02:19 - 01:02:22]** Uh, that's what I, yeah, here's does that.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[01:02:22 - 01:02:23]** Okay, that's awesome.
 
@@ -2958,26 +2962,26 @@
 **[01:02:29 - 01:02:33]** You're trying to keep her up, make sure that she stays right where she is.
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[01:02:33 - 01:02:36]** With my invisible friend, yeah.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[01:02:36 - 01:02:37]** With your invisible friend.
 
 **[01:02:37 - 01:02:38]** What do you do when you cast it?
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[01:02:41 - 01:02:49]** So, like, here's, like, insect palm just kind of opens up, and then this, like, sort of ephemeral, like, wind kind of comes out of it.
 
 **[01:02:49 - 01:02:58]** And then you just see, like, the sheer outline of something, like, kind of creepily move past, like... And, like, push her arms slowly.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[01:02:58 - 01:02:59]** Yeah, yeah, yeah.
 
@@ -2998,17 +3002,17 @@
 **[01:03:21 - 01:03:22]** What are you doing?
 
 
-## Speaker_SPEAKER_03
+## Nicholas Belcher
 
 **[01:03:25 - 01:03:30]** Nico continues to hold his blasters out in front of the dazed Kasathan's face.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[01:03:30 - 01:03:31]** Okay.
 
 
-## Speaker_SPEAKER_03
+## Nicholas Belcher
 
 **[01:03:31 - 01:03:34]** Just ready to do anything, and he's just going to hold a full action.
 
@@ -3019,7 +3023,7 @@
 **[01:03:42 - 01:03:42]** Nice.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[01:03:45 - 01:03:47]** It's Special Agent LaRue's turn.
 
@@ -3064,26 +3068,26 @@
 **[01:05:00 - 01:05:01]** What do you all do?
 
 
-## Speaker_SPEAKER_03
+## Nicholas Belcher
 
 **[01:05:03 - 01:05:06]** Nico's going to put away his blasters and take a step back.
 
 **[01:05:07 - 01:05:08]** And he's going to move toward the ship.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[01:05:09 - 01:05:10]** Rick holsters his weapon.
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[01:05:12 - 01:05:17]** Hears walks past him towards the ship and says, You gotta get your platform under control.
 
 **[01:05:18 - 01:05:18]** Keeps let go.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[01:05:19 - 01:05:23]** I'm so, so, so sorry about this.
 
@@ -3094,7 +3098,7 @@
 **[01:05:25 - 01:05:26]** O.K., what are you doing?
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[01:05:26 - 01:05:31]** I'm going to talk to Special Agent LaRue and ask if she's okay.
 
@@ -3104,14 +3108,14 @@
 **[01:05:31 - 01:05:31]** Okay.
 
 
-## Speaker_SPEAKER_00
+## Will Garrett
 
 **[01:05:35 - 01:05:37]** What do you say?
 
 **[01:05:37 - 01:05:41]** Special Agent LaRue, do you require any medical assistance?
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[01:05:43 - 01:05:44]** I think I'll...
 
@@ -3132,12 +3136,12 @@
 **[01:06:06 - 01:06:08]** And how long does days last, Kiers?
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[01:06:10 - 01:06:12]** Days last, I think, for one turn.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[01:06:13 - 01:06:13]** One turn?
 
@@ -3149,7 +3153,7 @@
 **[01:06:14 - 01:06:14]** Yeah.
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[01:06:15 - 01:06:19]** Um, one, oh, um, it's immune.
 
@@ -3158,14 +3162,14 @@
 **[01:06:21 - 01:06:22]** The duration.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[01:06:23 - 01:06:23]** Yeah.
 
 **[01:06:23 - 01:06:24]** What's the duration?
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[01:06:25 - 01:06:26]** Where is that?
 
@@ -3174,7 +3178,7 @@
 **[01:06:27 - 01:06:29]** One round, one round, one round.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[01:06:29 - 01:06:30]** Okay.
 
@@ -3200,29 +3204,29 @@
 **[01:07:06 - 01:07:07]** Have a good day.
 
 
-## Speaker_SPEAKER_03
+## Nicholas Belcher
 
 **[01:07:08 - 01:07:18]** Nico's going to, on the way up to the ship, Nico's going to kind of elbow here's a little bit, and he's going to say to here's, looks like someone's going to make the local news tonight.
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[01:07:21 - 01:07:24]** Here's mandibles, like, just sort of jittering glee.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[01:07:29 - 01:07:32]** What is, what is, oh, sorry, go, no, no, go, go.
 
 
-## Speaker_SPEAKER_02
+## Kelly Gilliam
 
 **[01:07:32 - 01:07:32]** That's all.
 
 **[01:07:32 - 01:07:35]** I just, he has nice little mandibles.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[01:07:36 - 01:07:56]** rick what are you doing so rick is he's just gonna holster his weapon casually and pull his trench coat back forward and he kind of just stands there in like full observance of just trying to see what's going on um and he's gonna roll another perception check roll a perception check
 
@@ -3235,7 +3239,7 @@
 **[01:08:03 - 01:08:07]** Just to see, like, just to try to understand what's happening between everything.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[01:08:07 - 01:08:12]** So, Special Agent LaRue has handcuffed Magwa.
 
@@ -3270,12 +3274,12 @@
 **[01:09:18 - 01:09:19]** He's kind of talking to you, Rick.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[01:09:19 - 01:09:23]** I guess as everybody else starts moving onto the ship, then Rick will turn and follow.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[01:09:24 - 01:09:25]** Okay.
 
@@ -3284,17 +3288,17 @@
 **[01:09:40 - 01:09:41]** And that's our game.
 
 
-## Speaker_SPEAKER_03
+## Nicholas Belcher
 
 **[01:09:44 - 01:09:44]** Hell yeah.
 
 
-## Speaker_SPEAKER_04
+## Jon Swan
 
 **[01:09:45 - 01:09:47]** You get one clap from all of us.
 
 
-## Speaker_SPEAKER_01
+## Kevin Decker
 
 **[01:09:49 - 01:09:50]** Hey, I'm Kevin.
 
