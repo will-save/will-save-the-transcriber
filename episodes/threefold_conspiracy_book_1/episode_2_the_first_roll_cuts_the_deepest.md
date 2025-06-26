@@ -1,6 +1,6 @@
-# episode_2_the_first_roll_cuts_the_deepest
+# Episode 2 - The First Roll Cuts the Deepest
 
-**Language:** Unknown
+**Language:** English
 
 ---
 
