@@ -834,9 +834,6 @@
 
 **[00:20:47 - 00:20:49]** They call me that kind of lawyer.
 
-
-## Kelly Gilliam
-
 **[00:20:50 - 00:20:51]** Time is a flat circle?
 
 **[00:20:51 - 00:20:52]** I don't remember that reference.
@@ -2041,7 +2038,7 @@
 
 ## Will Garrett (Dr. OK)
 
-**[00:45:59 - 00:46:02]** We are stronger than our skin.
+**[00:45:59 - 00:46:02]** We are stronger than our skin...
 
 
 ## Jon Swan (Sergeant Leeroy)
@@ -2051,7 +2048,7 @@
 
 ## Will Garrett (Dr. OK)
 
-**[00:46:06 - 00:46:08]** We must be strong for a kid.
+**[00:46:06 - 00:46:08]** We must be strong for a kin...
 
 
 ## Jon Swan (Sergeant Leeroy)
@@ -2063,11 +2060,11 @@
 
 ## Jon Swan (GM)
 
-**[00:46:11 - 00:46:15]** The sergeant grabs Dr. Okatus' arm, salt in hand.
+**[00:46:11 - 00:46:15]** The sergeant grabs Dr. Okkatus' arm, salt in hand.
 
 **[00:46:15 - 00:46:19]** Suddenly, Kontu grabs the sergeant's face with his tentacles.
 
-**[00:46:19 - 00:46:34]** Jarring the sarge, Dr. Okatus calmly grabs a syringe hidden beneath a flap of skin near his shoulders, his oily, semi-luminous skin glowing with intensity and vibrating vigorously.
+**[00:46:19 - 00:46:34]** Jarring the sarge, Dr. Okkatus calmly grabs a syringe hidden beneath a flap of skin near his shoulders, his oily, semi-luminous skin glowing with intensity and vibrating vigorously.
 
 **[00:46:34 - 00:46:40]** He forces the sergeant's face closer to him, positioning his gaze upwards to the ceiling.
 
@@ -2096,7 +2093,7 @@
 
 ## Jon Swan (Sergeant Leeroy)
 
-**[00:47:17 - 00:47:22]** Yes, uh, yeah, I'm starting to feel more okay, Dr. Okkatus.
+**[00:47:17 - 00:47:22]** Yes, uh, yeah, I'm starting to feel more okay, Dr. OK.
 
 
 ## Will Garrett (Dr. OK)
@@ -2122,7 +2119,7 @@
 **[00:47:45 - 00:47:46]** Puts a bag on the table.
 
 
-## Will Garrett
+## Will Garrett (Dr. OK)
 
 **[00:47:46 - 00:47:49]** Oh, I see, Sergeant.
 
@@ -2131,7 +2128,7 @@
 **[00:47:51 - 00:47:52]** May I take a look?
 
 
-## Jon Swan (GM)
+## Jon Swan (Sergeant Leeroy)
 
 **[00:47:52 - 00:47:54]** Yes, yes, of course, Dr. O.K.
 
@@ -2140,22 +2137,26 @@
 **[00:48:04 - 00:48:15]** O.K., we will be able to unravel his drug network and apprehend the fugitive known as Dr. Boo Hoo Daykings and his accomplices.
 
 
-## Will Garrett
+## Will Garrett (Dr. OK)
 
 **[00:48:15 - 00:48:18]** Anything I can do to help, of course.
 
 **[00:48:18 - 00:48:19]** Where did you lose him?
 
 
-## Jon Swan (GM)
+## Jon Swan (Sergeant Leeroy)
 
 **[00:48:20 - 00:48:27]** He was being chased by one of our undercovers into the Pack World's tunnels during a sting operation.
 
 **[00:48:27 - 00:48:37]** Our man, he lost sight of Dr. Buzdaking shortly after the security cameras were mysteriously blacked out on our security feed.
 
-**[00:48:37 - 00:48:38]** Dr. O.K.
 
-**[00:48:38 - 00:48:45]** stands from the table with the bag as the bewildered sergeant begins staring deeply at the ceiling above.
+## Jon Swan (GM)
+
+**[00:48:37 - 00:48:45]** Dr. O.K. stands from the table with the bag as the bewildered sergeant begins staring deeply at the ceiling above.
+
+
+## Jon Swan (Sergeant Leeroy)
 
 **[00:48:45 - 00:48:47]** Oh, we are going to find him, you see.
 
@@ -2168,30 +2169,30 @@
 **[00:48:53 - 00:48:54]** And these lights?
 
 
-## Will Garrett
+## Will Garrett (Dr. OK)
 
 **[00:48:55 - 00:48:57]** Yes, they're fascinating, Sergeant.
 
 **[00:48:57 - 00:49:01]** Truly, say, am I free to leave?
 
 
-## Jon Swan (Agent Larue)
+## Jon Swan (Sergeant Leeroy)
 
 **[00:49:01 - 00:49:03]** Yes, yes, of course, you're free to go.
 
 **[00:49:03 - 00:49:08]** And, you know, I didn't notice before, but the ceiling reminds me of your eyes.
 
-
-## Jon Swan (GM)
-
 **[00:49:09 - 00:49:11]** Really shiny, really, really shiny.
 
 **[00:49:11 - 00:49:12]** It's incredible.
 
-**[00:49:12 - 00:49:20]** Dr. O'Kay opens the door slightly to the low roar of Legacy Police Station's bullpen.
+
+## Jon Swan (GM)
+
+**[00:49:12 - 00:49:20]** Dr. OK opens the door slightly to the low roar of Legacy Police Station's bullpen.
 
 
-## Will Garrett
+## Will Garrett (Dr. OK)
 
 **[00:49:21 - 00:49:21]** I'm sorry.
 
@@ -2204,7 +2205,7 @@
 **[00:49:28 - 00:49:29]** Do you hear it, too?
 
 
-## Jon Swan (Agent Larue)
+## Jon Swan (Sergeant Leeroy)
 
 **[00:49:29 - 00:49:30]** Yes!
 
@@ -2223,7 +2224,7 @@
 **[00:49:39 - 00:49:39]** Hmm.
 
 
-## Will Garrett
+## Will Garrett (Dr. OK)
 
 **[00:49:40 - 00:49:42]** Thank you, Sergeant.
 
@@ -2234,64 +2235,71 @@
 
 ## Jon Swan (GM)
 
-**[00:49:50 - 00:50:04]** Dr. Okatis leaves the interrogation room, casually closes the door, begins walking out of the police station, nodding to his arresting deputies, and heads out to the main concourse on Legacy Station.
+**[00:49:50 - 00:50:04]** Dr. Okkatus leaves the interrogation room, casually closes the door, begins walking out of the police station, nodding to his arresting deputies, and heads out to the main concourse on Legacy Station.
 
 **[00:50:07 - 00:50:12]** Inside the Terminus of Legacy Station, a trepidatious Dr. O.K.
 
-**[00:50:12 - 00:50:17]** enters the terminal for vessels traveling to the Pathworlds.
+**[00:50:12 - 00:50:17]** enters the terminal for vessels traveling to the Pactworlds.
 
-**[00:50:17 - 00:50:17]** Dr. O.K.
-
-**[00:50:17 - 00:50:25]** cautiously makes his way through the crowd, avoiding detection by the security personnel stationed throughout the terminal.
+**[00:50:17 - 00:50:25]** Dr. O.K. cautiously makes his way through the crowd, avoiding detection by the security personnel stationed throughout the terminal.
 
 **[00:50:25 - 00:50:28]** The crowd, moving at a hurried pace, avoids Dr.
 
 **[00:50:28 - 00:50:35]** O.K., who stands stoically as he looks back up at the terminal platform, but reads,
 
-**[00:50:35 - 00:50:40]** Now we're in Absalom's station.
+**[00:50:35 - 00:50:40]** Now boarding Absalom's station.
 
 **[00:50:40 - 00:50:49]** And he gazes back into the bag of Dr. Bousdakis' belongings and speaks quietly to himself as he begins to move forward towards the gate.
 
 
-## Speaker_Kelly Gilliam0
+## Will Garrett (Dr. OK)
 
 **[00:50:51 - 00:50:54]** I am stronger than my skin.
 
 **[00:50:54 - 00:50:59]** I will be strong for my kin.
 
+
+## Jon Swan (GM)
+
 **[00:50:59 - 00:51:00]** Blackout.
 
 
-## Speaker_Kelly Gilliam2
+## Nicholas Belcher
 
-**[00:51:04 - 00:51:11]** Why am I not surprised, Will, that you are the first person to drug somebody in both our D&D game and our
+**[00:51:04 - 00:51:11]** Why am I not surprised, Will, that you are the first person to drug somebody in both our D&D game and our Starfinder game.
+
+
+## Jon Swan
 
 **[00:51:13 - 00:51:15]** I don't know what you're talking about, Paizo.
-
-
-## Jon Swan (GM)
 
 **[00:51:16 - 00:51:18]** We don't play Dungeons & Dragons.
 
 **[00:51:18 - 00:51:19]** That never happens.
 
 
-## Kelly Gilliam
+## Will Garrett
 
 **[00:51:20 - 00:51:21]** Whatever are you talking about?
 
 **[00:51:21 - 00:51:21]** What is that?
 
+
+## Kelly Gilliam
+
 **[00:51:21 - 00:51:24]** The banter between those two characters was amazing.
 
 **[00:51:24 - 00:51:27]** The sergeant and the doctor.
+
+
+## Nicholas Belcher
 
 **[00:51:27 - 00:51:29]** It really was.
 
 
 ## Kevin Decker
 
-**[00:51:29 - 00:51:30]** Your voice is phenomenal.
+**[00:51:29 - 00:51:30]** And again, your voice is phenomenal.
 
 
 ## Kelly Gilliam
@@ -2299,21 +2307,35 @@
 **[00:51:30 - 00:51:31]** Yeah, it's so good.
 
 
-## Speaker_Kelly Gilliam5
+## Jon Swan
 
 **[00:51:31 - 00:51:33]** The voice was phenomenal.
 
 **[00:51:33 - 00:51:34]** It's fantastic.
 
 
-## Will Garrett
+## Will Garrett (as Dr. OK)
 
 **[00:51:35 - 00:51:36]** Thank you.
 
 
 ## Kelly Gilliam
 
-**[00:51:37 - 00:51:53]** so good I love that I am stronger than my skin I'll be stronger than my for my kin that's like such a cool thing I think it's really cool slugs have weak skin man I think it's creepy actually but whatever I thought it was supposed to be all those things that's so funny
+**[00:51:37 - 00:51:53]** so good I love that I am stronger than my skin I'll be stronger than my for my kin that's like such a cool thing I think it's really cool 
+
+## Will Garrett
+
+**[00:51:37 - 00:51:39]** slugs have weak skin man 
+
+
+## Kevin Decker
+
+**[00:51:38 - 00:51:43]** I think it's creepy actually but whatever I thought 
+
+
+## Will Garrett
+
+**[00:51:38 - 00:51:43]** it was supposed to be all those things that's so funny
 
 
 ## Jon Swan (Agent Larue)
@@ -2321,17 +2343,14 @@
 **[00:51:54 - 00:51:59]** Could you please explain your whereabouts in the past 24 hours?
 
 
-## Will Garrett
+## Will Garrett (Dr. OK)
 
 **[00:52:00 - 00:52:10]** Yes, I was in the station meeting, gathering some belongings and personal effects for my trip to Absalom.
-
-
-## Kelly Gilliam
 
 **[00:52:10 - 00:52:10]** Hmm.
 
 
-## Speaker_Kelly Gilliam3
+## Jon Swan (Agent Larue)
 
 **[00:52:10 - 00:52:11]** All right.
 
@@ -2347,10 +2366,10 @@
 
 **[00:52:15 - 00:52:15]** I'm sorry.
 
+**[00:52:16 - 00:52:16]** Don't mean to pry.
+
 
 ## Jon Swan (GM)
-
-**[00:52:16 - 00:52:16]** Don't mean to pry.
 
 **[00:52:17 - 00:52:18]** She takes a few steps back.
 
@@ -2371,7 +2390,7 @@
 **[00:52:41 - 00:52:46]** Nick, what does this young man look like?
 
 
-## Speaker_Kelly Gilliam2
+## Nicholas Belcher
 
 **[00:52:46 - 00:52:47]** He's a younger man.
 
@@ -2412,7 +2431,7 @@
 **[00:53:53 - 00:53:54]** What is your name?
 
 
-## Speaker_Kelly Gilliam2
+## Nicholas Belcher (Niko Orion)
 
 **[00:53:57 - 00:53:58]** Why do you need to know?
 
