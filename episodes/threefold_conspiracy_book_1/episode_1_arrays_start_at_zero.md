@@ -11,7 +11,7 @@
 
 **[00:01:02 - 00:01:02]** Just take a second.
 
-**[00:01:03 - 00:01:06]** Kev, I see you've opened them and close them...
+**[00:01:03 - 00:01:06]** Kev, I see you've opened them; close them...
 
 **[00:01:07 - 00:01:07]** There you go, yeah.
 
