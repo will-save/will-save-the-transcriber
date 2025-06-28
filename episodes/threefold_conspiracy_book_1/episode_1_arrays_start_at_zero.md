@@ -3410,4 +3410,3 @@
 
 - **Total segments:** 1051
 - **Duration:** 01:13:35
-- **Number of speakers:** 18
